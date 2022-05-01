@@ -1,22 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HeaderContainer from './style';
 
 function Header() {
   return(
-    <>
+    <HeaderContainer>
       <h1 className="title-head">Matheus</h1>
-      <li>
+      <ul>
         <Link to="/home">
-          <ul>HOME</ul>
+          <li>HOME</li>
         </Link>
         <Link to="/projetos">
-          <ul>PROJETOS</ul>
+          <li>PROJETOS</li>
         </Link>
         <Link to="/contato">
-          <ul>CONTATO</ul>
+          <li>CONTATO</li>
         </Link>
-      </li>
-    </>
+      </ul>
+    </HeaderContainer>
   );
 }
 

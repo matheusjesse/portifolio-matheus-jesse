@@ -5,7 +5,8 @@ function Projetos() {
   return(
     <>
       <Header />
-      <h1>PROJETOS PROJETOS</h1>
+      <hr />
+      <h1>Projetos</h1>
     </>
   );
 }

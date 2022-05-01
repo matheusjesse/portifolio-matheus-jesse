@@ -5,7 +5,8 @@ function Contato() {
   return(
     <>
       <Header />
-      <h1>Contato Contato</h1>
+      <hr />
+      <h1>Contato</h1>
     </>
   );
 }

@@ -33,7 +33,8 @@ h1 {
 }
 
 p {
-  font-size: 1.2em;
+  width: 450px;
+  font-size: 1.3em;
   margin-bottom: 48px;
 }
 
@@ -58,6 +59,30 @@ button:hover {
   border: none;
   background-color: #F5F5F5;
   color: #031014;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 280px;
+  background-color: #F5F5F5;
+  color: #031014;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px; 
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -130px; 
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
 }
 
 `;

@@ -3,6 +3,7 @@ import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computerPerson.svg';
+import Footer from '../componentes/Footer'
 
 function Home() {  
   return(
@@ -70,6 +71,7 @@ function Home() {
         </div>
       </div>
       </HomeContainer>
+      <Footer />
     </>
   );
 }

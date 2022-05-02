@@ -24,7 +24,7 @@ img {
   display: flex;
   justify-content: space-around;  
   width: 100vw;
-  height: 100vh;
+  height: 76vh;
   margin-top: 170px;
 }
 

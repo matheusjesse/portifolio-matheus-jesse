@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-const HeaderContainer = styled.header` 
-  background-color: #031014;  
+const HeaderContainer = styled.header`  
 
   .header-container {
     height: 80px;
@@ -13,6 +12,7 @@ const HeaderContainer = styled.header`
     left: 0;
     right: 0;
     border-bottom: 1px solid white;
+    background-color: #001319;
   }
 
   p{
@@ -28,9 +28,14 @@ const HeaderContainer = styled.header`
     display: flex;
   }
   li {
+    height: 30px;
     list-style: none;
     margin-right: 18px;
     font-size: 20px;
+  }
+
+  li:hover {
+    border-bottom: 2px solid #00476D;
   }
     
 `;

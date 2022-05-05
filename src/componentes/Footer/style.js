@@ -23,6 +23,10 @@ const FooterContainer = styled.footer`
     font-size: 20px;
   }
 
+  a:hover {
+    color:#00476D ;
+  }
+
   hr {
     height: 50px;
     margin: 0px 25px 0px 25px;

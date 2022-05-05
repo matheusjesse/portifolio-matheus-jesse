@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.div`   
   
-
 ul {
   display: flex;
   list-style: none;
@@ -10,9 +9,14 @@ ul {
 }
 
 li {
-  height: 46px;
-  width: 46px;
+  height: 65px;
+  width: 65px;
   margin-right: 30px;
+  padding: 10px;
+}
+
+li:hover {
+  padding: 0px;
 }
 
 img {
@@ -43,7 +47,7 @@ h2 {
 }
 
 .section-left {
-  width: 40%;  
+  width: 40%; 
 }
 
 
@@ -58,7 +62,7 @@ button {
 button:hover {
   border: none;
   background-color: #F5F5F5;
-  color: #031014;
+  color: #00476D;
 }
 .tooltip {
   position: relative;
@@ -67,7 +71,7 @@ button:hover {
 
 .tooltip .tooltipText {
   visibility: hidden;
-  width: 280px;
+  width: 250px;
   background-color: #F5F5F5;
   color: #031014;
   text-align: center;
@@ -78,7 +82,7 @@ button:hover {
   text-align: left;
   bottom: 100%;
   left: 50%;
-  margin-left: -130px; 
+  margin-left: -118px; 
 }
 
 .tooltip:hover .tooltipText {

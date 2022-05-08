@@ -30,7 +30,7 @@ const FormContatoContainer = styled.div`
 
   h1 {
     background: #F5F5F5;
-    color: black;
+    color: #00638A;
   }
   input {
     width: 300px;

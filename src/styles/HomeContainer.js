@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.div`   
-  
+
 ul {
   display: flex;
   list-style: none;
@@ -28,7 +28,7 @@ img {
   display: flex;
   justify-content: space-around;  
   width: 100vw;
-  height: 76vh;
+  height: 73vh;
   margin-top: 170px;
 }
 

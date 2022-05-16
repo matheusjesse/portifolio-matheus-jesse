@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     color: #F5F5F5;
     font-family: 'Red Hat Text', sans-serif;    
     background-color:#001319 ;
+    
   }
 `;
 export default GlobalStyle;

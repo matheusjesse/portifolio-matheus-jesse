@@ -26,7 +26,7 @@ img {
 
 .contato-body {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-evenly;  
   width: 100vw;
   height: 73vh;
   margin-top: 170px;
@@ -47,7 +47,18 @@ h2 {
 }
 
 .section-left {
-  width: 40%; 
+  width: 560px;
+  height: 400px;
+  
+}
+
+.section-right {
+  width: 560px;
+}
+
+hr {
+  height: 380px;
+
 }
 
 

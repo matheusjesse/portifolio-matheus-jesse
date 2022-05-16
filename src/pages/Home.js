@@ -3,7 +3,7 @@ import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computerPerson.svg';
-import Footer from '../componentes/Footer'
+import Footer from '../componentes/Footer';
 
 function Home() {  
   return(
@@ -63,6 +63,7 @@ function Home() {
           </ul>
           <button type="button">VER PROJETOS</button>
         </div>
+        <hr></hr>
         <div className="section-right">
           <img 
             src={ Computer }

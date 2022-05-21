@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
+import { Link } from 'react-router-dom';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computerPerson.svg';
 import Footer from '../componentes/Footer'
@@ -66,7 +67,9 @@ function Home() {
               <h3>Styled Components</h3>
             </li>
           </ul>
-          <button type="button">VER PROJETOS</button>
+          <Link to="/projetos">
+            <button type="button">VER PROJETOS</button>
+          </Link>
         </div>
         <div className="section-right">
           <img 

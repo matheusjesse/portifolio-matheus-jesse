@@ -64,7 +64,9 @@ button {
   border-radius: 8px;
   border: 2px solid white;
   font-size: 20px;
-  color: #001319;
+  color: #001319;  
+  font-weight: bold;
+  box-shadow: 0px 1px 4px -1px gray;
 }
 
 button:hover {

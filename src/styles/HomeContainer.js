@@ -11,14 +11,20 @@ ul {
 }
 
 li {
-  height: 65px;
-  width: 65px;
-  margin-right: 30px;
-  padding: 10px;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  padding: 8px;
 }
 
 li:hover {
   padding: 0px;
+}
+
+
+h3 {
+  font-size: 12px;
+  text-align: center;
 }
 
 img {
@@ -66,6 +72,7 @@ button:hover {
   background-color: #F5F5F5;
   color: #00476D;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;

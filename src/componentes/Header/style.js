@@ -26,16 +26,17 @@ const HeaderContainer = styled.header`
   ul {
     display: flex;
   }
-  li {
+
+  li {    
     height: 30px;
     list-style: none;
     margin-right: 18px;
     font-size: 20px;
-  }
+  }  
 
   li:hover {
     box-shadow: 0 4px 2px -3px white;
-  }
+  }  
     
 `;
 

@@ -7,8 +7,12 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;    
     color: #F5F5F5;
-    font-family: 'Red Hat Text', sans-serif;    
-    background-color:#001319 ;
+    font-family: 'Red Hat Text', sans-serif;        
   }
+
+  body {
+    background-color: #001319;
+  }
+    
 `;
 export default GlobalStyle;

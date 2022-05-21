@@ -11,8 +11,7 @@ const HeaderContainer = styled.header`
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 1px solid white;
-    background-color: #001319;
+    box-shadow: 0px 0px 2px 0px white;    
   }
 
   p{
@@ -35,7 +34,7 @@ const HeaderContainer = styled.header`
   }
 
   li:hover {
-    border-bottom: 2px solid #00476D;
+    box-shadow: 0 4px 2px -3px white;
   }
     
 `;

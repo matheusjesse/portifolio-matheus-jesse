@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`   
+export const HomeContainer = styled.div`
+
+height: 100%;
   
 ul {
   display: flex;
@@ -50,13 +52,13 @@ h2 {
   width: 40%; 
 }
 
-
 button {
   width: 243px;
   height: 55px;
   border-radius: 8px;
   border: 2px solid white;
   font-size: 20px;
+  color: #001319;
 }
 
 button:hover {

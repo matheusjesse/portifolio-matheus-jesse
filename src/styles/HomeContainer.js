@@ -53,7 +53,7 @@ h2 {
 }
 
 .section-right {
-  width: 560px;
+   width: 560px;
 }
 
 hr {

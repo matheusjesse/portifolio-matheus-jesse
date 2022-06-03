@@ -38,9 +38,9 @@ h3 {
 }
 
 img {
-  width: 495px;
-  height: 514px;
-  padding-bottom: 120px;
+  width: 594px;
+  height: 594px;
+  padding-bottom: 180px;
 }
 
 .contato-body {
@@ -53,18 +53,22 @@ img {
 
 h1 {
   font-size: 3em;
-  margin-bottom: 16px;  
+  margin-bottom: 16px; 
+  font-family: 'Biryani', sans-serif;
 }
 
 p {
   width: 450px;
   font-size: 1.2em;
   margin-bottom: 48px;
+  font-family: 'Biryani', sans-serif;
+  
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-bottom: 16px;
+  font-family: 'Biryani', sans-serif;
 }
 
 .section-left {
@@ -87,6 +91,8 @@ button {
   color: #F5F5F5;  
   font-weight: bold;
   box-shadow: 0px 0px 1px 1px #F5F5F5;
+  font-family: 'Biryani', sans-serif;
+  padding-top: 6px;
 }
 
 button:hover {

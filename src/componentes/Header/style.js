@@ -11,9 +11,10 @@ const HeaderContainer = styled.header`
     top: 0;
     left: 0;
     right: 0;
-    //border-bottom: 1px solid white;
-    box-shadow: 0px 0px 1px 0px white;
+
     background-color: #001319;
+    box-shadow: 0px 0px 2px -1px white;    
+
   }
 
   p{
@@ -28,16 +29,17 @@ const HeaderContainer = styled.header`
   ul {
     display: flex;
   }
-  li {
+
+  li {    
     height: 30px;
     list-style: none;
     margin-right: 18px;
     font-size: 20px;
-  }
+  }  
 
   li:hover {
-    border-bottom: 2px solid #00476D;
-  }
+    box-shadow: 0 4px 2px -3px white;
+  }  
     
 `;
 

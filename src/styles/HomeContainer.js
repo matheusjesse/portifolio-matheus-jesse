@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`   
+
+export const HomeContainer = styled.div`
+
+height: 100%;
 
 ul {
   display: flex;
@@ -9,14 +12,20 @@ ul {
 }
 
 li {
-  height: 65px;
-  width: 65px;
-  margin-right: 30px;
-  padding: 10px;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  padding: 8px;
 }
 
 li:hover {
   padding: 0px;
+}
+
+
+h3 {
+  font-size: 12px;
+  text-align: center;
 }
 
 img {
@@ -61,13 +70,15 @@ hr {
 
 }
 
-
 button {
   width: 243px;
   height: 55px;
   border-radius: 8px;
   border: 2px solid white;
   font-size: 20px;
+  color: #001319;  
+  font-weight: bold;
+  box-shadow: 0px 1px 4px -1px gray;
 }
 
 button:hover {
@@ -75,6 +86,7 @@ button:hover {
   background-color: #F5F5F5;
   color: #00476D;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
+import { Link } from 'react-router-dom';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computerPerson.svg';
 import Footer from '../componentes/Footer';
@@ -26,6 +27,7 @@ function Home() {
                 comportamentos de páginas web.
               </span>
               <Icons.Javascript />
+              <h3>JavaScript</h3>
             </li>
             <li className="tooltip">
               <span className="tooltipText">
@@ -34,6 +36,7 @@ function Home() {
               complexas a partir de pequenos e isolados códigos chamados “componentes”.
               </span>
               <Icons.ReactLogo />
+              <h3>React</h3>
             </li>
             <li className="tooltip">
               <span className="tooltipText">
@@ -42,6 +45,7 @@ function Home() {
                 navegadores e mecanismos de busca.
               </span>
               <Icons.Html5 />
+              <h3>HTML5</h3>
             </li>
             <li className="tooltip">
               <span className="tooltipText">
@@ -51,6 +55,7 @@ function Home() {
               uma camada de personalização ao conteúdo visível.
               </span>
               <Icons.Css3 />
+              <h3>CSS</h3>
             </li>
             <li className="tooltip">
               <span className="tooltipText">
@@ -59,9 +64,12 @@ function Home() {
               Eles são escritos em uma mistura de JavaScript com CSS.
               </span>
               <Icons.Styledcomponents />
+              <h3>Styled Components</h3>
             </li>
           </ul>
-          <button type="button">VER PROJETOS</button>
+          <Link to="/projetos">
+            <button type="button">VER PROJETOS</button>
+          </Link>
         </div>
         <hr></hr>
         <div className="section-right">

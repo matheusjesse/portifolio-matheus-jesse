@@ -1,7 +1,7 @@
 import React from 'react';
-import Linkedin from '../../assets/linkedin.svg';
 import GitHub from '../../assets/github.svg';
 import FooterContainer from './style';
+import Icons from '../../componentes/Icons';
 
 function Footer () {
   return (
@@ -12,8 +12,10 @@ function Footer () {
         target="_blank"
         rel="noopener"
       >
-        <img src={Linkedin} alt="Linkedin Icon" />
-        Linkedin
+        <section>
+          <Icons.LinkedinWithCircle />
+          Linkedin
+        </section>
       </a>
       <hr/>
       <a
@@ -22,8 +24,10 @@ function Footer () {
         target="_blank" 
         rel="noopener"
       >
-        <img src={GitHub} alt="GitHub Icon" />
-        GitHub
+        <section>
+          <Icons.Github />
+          GitHub
+        </section>
       </a>
     </FooterContainer>
   );

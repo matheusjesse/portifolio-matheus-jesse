@@ -28,6 +28,9 @@ li:hover {
   padding: 0px;
 }
 
+li svg:hover {
+  fill: #08C8A4;
+}
 
 h3 {
   font-size: 12px;
@@ -49,16 +52,18 @@ img {
 }
 
 h1 {
+  font-size: 3em;
   margin-bottom: 16px;  
 }
 
 p {
   width: 450px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-bottom: 48px;
 }
 
 h2 {
+  font-size: 1.4em;
   margin-bottom: 16px;
 }
 

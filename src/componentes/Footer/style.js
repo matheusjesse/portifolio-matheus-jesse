@@ -27,12 +27,17 @@ const FooterContainer = styled.footer`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 32px;
   }
   
   svg {
     width: 44px;
     height: 44px;
     margin-right: 8px;
+  }
+
+  section:hover{    
+    color: #08C8A4;
   }
 
 `;

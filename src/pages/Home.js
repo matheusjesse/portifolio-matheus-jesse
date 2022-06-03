@@ -3,7 +3,7 @@ import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
 import { Link } from 'react-router-dom';
 import { HomeContainer } from '../styles/HomeContainer';
-import Computer from '../assets/computerPerson.svg';
+import Computer from '../assets/computer-react.svg';
 import Footer from '../componentes/Footer';
 
 function Home() {  
@@ -66,7 +66,6 @@ function Home() {
             <button type="button">VER PROJETOS</button>
           </Link>
         </div>
-        <hr></hr>
         <div className="section-right">
           <img 
             src={ Computer }

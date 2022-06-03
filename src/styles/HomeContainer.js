@@ -35,8 +35,9 @@ h3 {
 }
 
 img {
-  width: 595px;
-  height: 314px;
+  width: 495px;
+  height: 514px;
+  padding-bottom: 120px;
 }
 
 .contato-body {
@@ -69,12 +70,7 @@ h2 {
 
 .section-right {
    width: 560px;
-   height: 400px;
-}
-
-hr {
-  height: 380px;
-
+   height: 600px;
 }
 
 button {

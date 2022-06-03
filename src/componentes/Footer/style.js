@@ -35,11 +35,6 @@ const FooterContainer = styled.footer`
     margin-right: 8px;
   }
 
-  hr {
-    height: 50px;
-    margin: 0px 25px 0px 25px;
-    width: 2px;
-  }
 `;
 
 export default FooterContainer;

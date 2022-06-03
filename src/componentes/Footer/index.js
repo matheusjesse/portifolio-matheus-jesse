@@ -17,7 +17,6 @@ function Footer () {
           Linkedin
         </section>
       </a>
-      <hr/>
       <a
         // arrumar os Links
         href="www.linkedin.com/in/matheusjesse" 

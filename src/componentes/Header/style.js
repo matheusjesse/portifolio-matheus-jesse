@@ -36,7 +36,7 @@ const HeaderContainer = styled.header`
   }  
 
   li:hover {
-    box-shadow: 0 4px 2px -3px #08C8A4;
+    box-shadow: 0 3px 1px -2px #08C8A4;
   }  
     
 `;

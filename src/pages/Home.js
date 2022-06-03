@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computer-react.svg';
 import Footer from '../componentes/Footer';
+import Projetos from './Projetos';
 
 function Home() {  
   return(
@@ -74,6 +75,7 @@ function Home() {
         </div>
       </div>
       </HomeContainer>
+      <Projetos />
       <Footer />
     </>
   );

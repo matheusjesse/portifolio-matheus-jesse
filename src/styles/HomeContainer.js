@@ -6,16 +6,22 @@ export const HomeContainer = styled.div`
 height: 100%;
 
 ul {
-  display: flex;
+  width: 300px;
+  display: flex;  
   list-style: none;
-  margin-bottom: 48px;  
+  margin-bottom: 48px;
 }
 
 li {
-  height: 80px;
-  width: 80px;
+  
+  height: 40px;
+  width: 40px;
   margin-right: 20px;
-  padding: 8px;
+  padding: 4px;
+}
+
+svg {
+  width: 50px;
 }
 
 li:hover {
@@ -63,6 +69,7 @@ h2 {
 
 .section-right {
    width: 560px;
+   height: 400px;
 }
 
 hr {
@@ -76,7 +83,7 @@ button {
   border-radius: 8px;
   border: 2px solid white;
   font-size: 20px;
-  color: #001319;  
+  color: #F5F5F5;  
   font-weight: bold;
   box-shadow: 0px 1px 4px -1px gray;
 }

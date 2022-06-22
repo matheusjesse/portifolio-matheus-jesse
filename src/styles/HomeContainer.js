@@ -128,7 +128,8 @@ button:hover {
 
 .skillTitle {
   text-align: center;
-  width: 100%;
+  width: 100%;  
+  text-shadow: 1px 2px 2px #20CDAC;
 }
 
 .skillSection {

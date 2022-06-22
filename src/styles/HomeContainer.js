@@ -129,7 +129,7 @@ button:hover {
 .skillTitle {
   text-align: center;
   width: 100%;  
-  text-shadow: 1px 2px 2px #20CDAC;
+  text-shadow: 1px 1px 2px #20CDAC;
 }
 
 .skillSection {
@@ -145,8 +145,8 @@ button:hover {
   width: 140px;
   height: 150px;
   display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(0px);
+  background: rgba(255,255,255, 0.2);
+  backdrop-filter: blur(22px);
   border-radius: 8px;
   padding: 8px 8px 8px 8px;
   transition-duration: 1s;
@@ -161,6 +161,7 @@ button:hover {
   display: column;
   text-align: center;
   padding-top: 9px;
+  color: white;
 }
 
 .skillCardText {
@@ -170,6 +171,7 @@ button:hover {
   padding-top: 18px;
   text-align: center;
   overflow: hidden;
+  color: white;
 }
 
 .skillCard:hover {
@@ -184,7 +186,7 @@ button:hover {
 
 .skillCardIcon svg {
   width: 90px;
-  fill: #f5f5f5;  
+  fill: white;  
 }
 
 

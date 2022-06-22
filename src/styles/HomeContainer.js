@@ -88,7 +88,7 @@ button {
   border-radius: 8px;
   border: none;
   font-size: 20px;
-  color: #F5F5F5;  
+  color: #08C8A4;  
   font-weight: bold;
   box-shadow: 0px 0px 1px 1px #F5F5F5;
   font-family: 'Biryani', sans-serif;

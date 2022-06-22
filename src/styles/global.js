@@ -8,11 +8,14 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     color: #F5F5F5;
     font-family: 'Red Hat Text', sans-serif;
-    background-color:#001319;
+    
   }
 
   body {
-    background-color: #001319;
+    background: #002937;
+    background: -moz-linear-gradient(top, #002937 0%, #177795 64%, #002937 100%);
+    background: -webkit-linear-gradient(top, #002937 0%, #177795 64%, #002937 100%);
+    background: linear-gradient(to bottom, #002937 0%, #177795 64%, #002937 100%);
   }
 
 `;

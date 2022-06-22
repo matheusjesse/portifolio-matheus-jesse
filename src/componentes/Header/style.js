@@ -11,7 +11,6 @@ const HeaderContainer = styled.header`
     top: 0;
     left: 0;
     right: 0;
-    background-color: #001319;
     box-shadow: 0px 0px 2px -1px white;
   }
 

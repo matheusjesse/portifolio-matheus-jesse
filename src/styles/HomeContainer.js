@@ -134,8 +134,10 @@ button:hover {
 .skillSection {
   height: 400px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skillCard {  
@@ -145,9 +147,9 @@ button:hover {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0px);
   border-radius: 8px;
-  padding: 8px 8px 8px 8px;  
-  transition: 1s;
-  transition-delay: 0.2s;
+  padding: 8px 8px 8px 8px;
+  transition-duration: 1s;
+  transition-timing-function: ease;
   overflow: hidden;
   box-shadow: 1px 1px 22px -2px black;
 }
@@ -171,7 +173,8 @@ button:hover {
 
 .skillCard:hover {
   width: 360px;
-  transition: 1s;  
+  transition: 1s;
+  transition-timing-function: ease;
 }
 
 .skillCard:hover .skillCardText {

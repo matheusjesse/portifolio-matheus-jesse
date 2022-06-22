@@ -126,6 +126,65 @@ button:hover {
   visibility: visible;
 }
 
+.skillTitle {
+  text-align: center;
+  width: 100%;
+}
+
+.skillSection {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillCard {  
+  width: 140px;
+  height: 150px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0px);
+  border-radius: 8px;
+  padding: 8px 8px 8px 8px;  
+  transition: 1s;
+  transition-delay: 0.2s;
+  overflow: hidden;
+  box-shadow: 1px 1px 22px -2px black;
+}
+
+.skillCardIcon {  
+  height: 134px;
+  min-width: 124px;  
+  display: column;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.skillCardText {
+  height: 124px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-top: 18px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.skillCard:hover {
+  width: 360px;
+  transition: 1s;  
+}
+
+.skillCard:hover .skillCardText {
+  color: white;
+}
+
+.skillCardIcon svg {
+  width: 90px;
+  fill: #f5f5f5;  
+}
+
+
+
 `;
 
 export default HomeContainer;

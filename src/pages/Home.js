@@ -72,6 +72,17 @@ function Home() {
             alt="person sitting next to a computer"
           />
         </div>
+      </div>      
+      <h1 className="skillTitle">Skills</h1>
+      <div className="skillSection">
+        <div className="skillCard">
+          <div className="skillCardIcon">
+            <Icons.ReactLogo />
+            React
+          </div>
+          <div className="skillCardText">O React é uma biblioteca JavaScript declarativa, eficiente e 
+              flexível para criar interfaces com o usuário.</div>
+        </div>
       </div>
       </HomeContainer>      
       <Footer />

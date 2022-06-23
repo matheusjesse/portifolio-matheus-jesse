@@ -61,7 +61,7 @@ function Home() {
         <div className="skillCard">
           <div className="skillCardIcon">
           <Icons.Css3 />
-            CSS
+           <p> CSS </p>
           </div>
           <div className="skillCardText">CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em 
           uma linguagem de marcação como HTML.
@@ -80,7 +80,7 @@ function Home() {
         <div className="skillCard">
           <div className="skillCardIcon">
           <Icons.Git />
-            Git
+           <p> Git </p>
           </div>
           <div className="skillCardText"> um sistema de controle de versão de arquivos. Através deles podemos 
           desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente.

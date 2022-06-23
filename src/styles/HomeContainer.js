@@ -164,8 +164,8 @@ button:hover {
   text-align: center;
   padding-top: 9px;
   color: white;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .skillCardText {
@@ -190,8 +190,11 @@ button:hover {
 
 .skillCardIcon svg {
   width: 90px;
-  margin-right: 12px;
   fill: white;  
+}
+
+.skillCardIcon p {
+  width: 122px;
 }
 
 hr {

@@ -133,16 +133,16 @@ button:hover {
 }
 
 .skillSection {
-  height: 400px;
+  height: 540px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 160px 0px;
 }
 
 .skillCard {  
-  width: 140px;
+  width: 156px;
   height: 150px;
   display: flex;
   background: rgba(255,255,255, 0.2);
@@ -153,6 +153,8 @@ button:hover {
   transition-timing-function: ease;
   overflow: hidden;
   box-shadow: 1px 1px 22px -2px black;
+  margin-right: 8px;  
+  margin-left: 8px;
 }
 
 .skillCardIcon {  
@@ -162,16 +164,17 @@ button:hover {
   text-align: center;
   padding-top: 9px;
   color: white;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
 .skillCardText {
   height: 124px;
-  padding-left: 8px;
-  padding-right: 12px;
-  padding-top: 18px;
+  padding: 12px 12px 8px 8px;  
   text-align: center;
   overflow: hidden;
   color: white;
+  font-size: 0.9em;
 }
 
 .skillCard:hover {
@@ -184,11 +187,17 @@ button:hover {
   color: white;
 }
 
+
 .skillCardIcon svg {
   width: 90px;
+  margin-right: 12px;
   fill: white;  
 }
 
+hr {
+  width: 100%;
+  visibility: hidden;
+}
 
 
 `;

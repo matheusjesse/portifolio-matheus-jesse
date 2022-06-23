@@ -5,7 +5,7 @@ import { Css3 } from '@styled-icons/boxicons-logos/Css3';
 import { Styledcomponents } from '@styled-icons/simple-icons/Styledcomponents';
 import { LinkedinWithCircle } from '@styled-icons/entypo-social/LinkedinWithCircle';
 import { Github } from '@styled-icons/evaicons-solid/Github';
-
+import { Git } from '@styled-icons/boxicons-logos/Git'
 const Icons = {
   Javascript,
   ReactLogo,
@@ -14,6 +14,7 @@ const Icons = {
   Styledcomponents,
   LinkedinWithCircle,
   Github,
+  Git,
 }
 
 export default Icons;

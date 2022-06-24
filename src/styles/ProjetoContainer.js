@@ -24,11 +24,11 @@ export const ProjetoContainer = styled.div`
   } 
 
   .slick-prev {
-    left: 30% !important;
+    left: 20% !important;
     z-index: 2;
   }
   .slick-next {
-    right: 30% !important;
+    right: 20% !important;
     z-index: 1;
   }
 

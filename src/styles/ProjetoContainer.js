@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProjetoContainer = styled.div`
-  height: 100vh;
+  width: 100%;
 
   h1 {
     text-align: center;
@@ -10,6 +10,7 @@ export const ProjetoContainer = styled.div`
   }
 
   .projetoSection {
+    margin: 0 20px 0px 20px;
   }
 
   .slick-slide > div {
@@ -21,6 +22,15 @@ export const ProjetoContainer = styled.div`
       height: 500px;
       padding: 0px;
   } 
+
+  .slick-prev {
+    left: 30% !important;
+    z-index: 2;
+  }
+  .slick-next {
+    right: 30% !important;
+    z-index: 1;
+  }
 
 `;
 

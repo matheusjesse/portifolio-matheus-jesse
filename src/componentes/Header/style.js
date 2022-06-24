@@ -7,10 +7,6 @@ const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     margin: 40px 68px 0px 68px;
   }
 
@@ -23,8 +19,8 @@ const HeaderContainer = styled.header`
     border-radius: 40px;
     padding-top: 4px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
   }
 
   a {
@@ -37,8 +33,8 @@ const HeaderContainer = styled.header`
     justify-content: center;
     align-items: center;
     border-radius: 60px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
     padding-left: 18px;
   }
 

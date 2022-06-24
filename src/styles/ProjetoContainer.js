@@ -6,14 +6,14 @@ export const ProjetoContainer = styled.div`
 
   h1 {
     text-align: center;
-    padding-bottom: 50px;
+    margin-top: 142px;
   }
 
   .projetoSection {
   }
 
   .slick-slide > div {
-    display: grid;
+      display: grid;
       place-items: center;
       width: 660px;
       margin-top: 50px;

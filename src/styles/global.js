@@ -12,10 +12,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #002937;
-    background: -moz-linear-gradient(top, #002937 0%, #177795 64%, #002937 100%);
-    background: -webkit-linear-gradient(top, #002937 0%, #177795 64%, #002937 100%);
-    background: linear-gradient(to bottom, #002937 0%, #177795 64%, #002937 100%);
+    background: rgb(23,22,24);
+background: linear-gradient(90deg, rgba(23,22,24,1) 0%, rgba(38,37,37,1) 50%, rgba(24,23,20,1) 100%);
   }
 
 `;

@@ -145,14 +145,13 @@ button:hover {
   width: 156px;
   height: 150px;
   display: flex;
-  background: rgba(255,255,255, 0.2);
+  background: none;
   backdrop-filter: blur(22px);
   border-radius: 8px;
   padding: 8px 8px 8px 8px;
   transition-duration: 1s;
   transition-timing-function: ease;
   overflow: hidden;
-  box-shadow: 1px 1px 22px -2px black;
   margin-right: 8px;  
   margin-left: 8px;
 }

@@ -36,8 +36,10 @@ const FooterContainer = styled.footer`
     margin-right: 8px;
   }
 
-  section:hover{    
+  section:hover,
+  section: hover svg{    
     color: #08C8A4;
+    fill: #08C8A4;
   }
 
 `;

@@ -138,7 +138,7 @@ button:hover {
 }
 
 .skillSection {
-  height: 600px;
+  height: 640px;
   width: 560px;
   display: flex;
   flex-wrap: wrap;
@@ -148,16 +148,13 @@ button:hover {
 }
 
 .skillCard {  
-  width: 156px;
-  height: 150px;
+  width: 136px;
+  height: 140px;
   display: flex;
   background: none;
   backdrop-filter: blur(22px);
   border-radius: 8px;
   padding: 8px 8px 8px 8px;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  overflow: hidden;
   margin-right: 8px;  
   margin-left: 8px;
 }
@@ -200,7 +197,7 @@ button:hover {
 }
 
 .skillHr {
-  height: 520px;
+  height: 580px;
   width: 1px;
   color: rgb(23,22,24);
   border: none;

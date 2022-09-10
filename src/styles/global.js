@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background: rgb(23,22,24);
-    background: linear-gradient(90deg, rgba(23,22,24,1) 0%, rgba(38,37,37,1) 50%, rgba(24,23,20,1) 100%);
+    background: linear-gradient(40deg, rgba(23,22,29,1) 2%, rgba(16,27,30,2) 60%, rgba(24,23,29,1) 100%);
   }
 
 `;

@@ -45,7 +45,7 @@ img {
 
 .contato-body {
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: center;  
   height: 60vh;
   margin-top: 140px;
 }

@@ -5,7 +5,13 @@ import { Css3 } from '@styled-icons/boxicons-logos/Css3';
 import { Styledcomponents } from '@styled-icons/simple-icons/Styledcomponents';
 import { LinkedinWithCircle } from '@styled-icons/entypo-social/LinkedinWithCircle';
 import { Github } from '@styled-icons/evaicons-solid/Github';
-import { Git } from '@styled-icons/boxicons-logos/Git'
+import { Git } from '@styled-icons/boxicons-logos/Git';
+import { Nodejs } from '@styled-icons/boxicons-logos/Nodejs';
+import { Mysql } from '@styled-icons/simple-icons/Mysql';
+import { Express } from '@styled-icons/simple-icons/Express';
+import { Sequelize } from '@styled-icons/simple-icons/Sequelize';
+import { Jest } from '@styled-icons/simple-icons/Jest';
+
 const Icons = {
   Javascript,
   ReactLogo,
@@ -15,6 +21,11 @@ const Icons = {
   LinkedinWithCircle,
   Github,
   Git,
+  Nodejs,
+  Mysql,
+  Express,
+  Sequelize,
+  Jest,
 }
 
 export default Icons;

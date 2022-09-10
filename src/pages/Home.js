@@ -112,6 +112,12 @@ function Home() {
             <p> Express </p>
             </div>
           </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("typescript")}>
+            <Icons.Typescript />
+            <p> TypeScript </p>
+            </div>
+          </div>
         </div>
         <hr className="skillHr"></hr>
         <div className="descriptionSection">

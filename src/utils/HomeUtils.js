@@ -26,5 +26,9 @@ export const text = {
   é uma estrutura de teste. Isso significa que vem com uma biblioteca de asserções, executor de teste e suporte para coisas. Como foi projetado 
   especificamente para testar os aplicativos React, também pode ser usado em outras estruturas JavaScript.`,
   express: `O Express.js é um Framework rápido e um dos mais utilizados em conjunto com o Node.js, facilitando no desenvolvimento de aplicações back-end 
-  e até, em conjunto com sistemas de templates, aplicações full-stack.`
+  e até, em conjunto com sistemas de templates, aplicações full-stack.`,
+  typescript: `TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e 
+  adiciona tipagem estática opcional à linguagem. Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o 
+  TypeScript valide se seu código está funcionando corretamente.`
+
 }

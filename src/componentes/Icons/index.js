@@ -11,6 +11,7 @@ import { Mysql } from '@styled-icons/simple-icons/Mysql';
 import { Express } from '@styled-icons/simple-icons/Express';
 import { Sequelize } from '@styled-icons/simple-icons/Sequelize';
 import { Jest } from '@styled-icons/simple-icons/Jest';
+import { Typescript } from '@styled-icons/simple-icons/Typescript';
 
 const Icons = {
   Javascript,
@@ -26,6 +27,7 @@ const Icons = {
   Express,
   Sequelize,
   Jest,
+  Typescript,
 }
 
 export default Icons;

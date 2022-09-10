@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FormContatoContainer from './style';
+import { ReactComponent as MailImage } from '../../assets/Untitled.svg';
 
 function FormContato() {
   const [ inputValues, setInputValues] = useState({
@@ -46,7 +47,9 @@ function FormContato() {
 
   const { name, email, message } = inputValues;
   return(
-    <FormContatoContainer>
+    <FormContatoContainer>      
+       <MailImage className="svgContainer"/>
+      <div className="formSection">
       <h1>Menssagem</h1>
       <form
         action="https://formsubmit.co/2a71ee4e83d2a63d27b27cd872e84c5b"
@@ -101,7 +104,7 @@ function FormContato() {
         <input type="hidden" name="_next" value="http://localhost:3000/contato" />
       </form>
       { loading ? (<h1>ENVIANDO...</h1>) : '' }
-      
+      </div>
     </FormContatoContainer>    
   );
 }

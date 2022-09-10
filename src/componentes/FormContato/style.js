@@ -1,20 +1,36 @@
 import styled from 'styled-components';
 
 const FormContatoContainer = styled.div`
-  height: 420px;
-  width: 420px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  backdrop-filter: blur(7.6px);
-  -webkit-backdrop-filter: blur(7.6px);   
-  border-radius: 10px;
+  justify-content: center;
+  width: 800px;
+  height: 500px;
+
+  .formSection {
+    height: 500px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);   
+    border-radius: 10px;
+  
+  }
+
+  svg {
+    width: 622px;
+    height: 440px;
+    transform: rotate(-20deg);
+  }
 
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    width: 420px;
+    height: 600px;
   }
 
   label {

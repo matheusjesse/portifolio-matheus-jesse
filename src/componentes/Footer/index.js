@@ -1,5 +1,4 @@
 import React from 'react';
-import GitHub from '../../assets/github.svg';
 import FooterContainer from './style';
 import Icons from '../../componentes/Icons';
 

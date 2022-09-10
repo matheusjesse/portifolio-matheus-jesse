@@ -90,7 +90,7 @@ button {
   color: white;
   background: #08C8A4;
   font-weight: bold;
-  box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px -0px 1px #F5F5F5;
   font-family: 'Biryani', sans-serif;
   padding-top: 6px;
 }
@@ -132,13 +132,19 @@ button:hover {
   text-shadow: 1px 1px 2px #20CDAC;
 }
 
+.skillContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .skillSection {
-  height: 540px;
+  height: 600px;
+  width: 560px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px 160px 0px;
+  padding: 20px 0px 360px 0px;
 }
 
 .skillCard {  
@@ -167,38 +173,54 @@ button:hover {
   margin-left: 10px;
 }
 
-.skillCardText {
-  height: 124px;
-  padding: 12px 12px 8px 8px;  
-  text-align: center;
-  overflow: hidden;
-  color: white;
-  font-size: 0.9em;
-}
-
-.skillCard:hover {
-  width: 360px;
-  transition: 1s;
-  transition-timing-function: ease;
-}
-
 .skillCard:hover .skillCardText {
   color: white;
 }
 
 
 .skillCardIcon svg {
-  width: 90px;
+  width: 80px;
   fill: white;  
+}
+
+.skillCardIcon:hover svg, 
+.skillCardIcon:hover p{
+  fill:#20CDAC;
+  color: #20CDAC;
 }
 
 .skillCardIcon p {
   width: 122px;
+  font-size: 14px;
 }
 
-hr {
+.skillCardHr {
   width: 100%;
   visibility: hidden;
+}
+
+.skillHr {
+  height: 520px;
+  width: 1px;
+  color: rgb(23,22,24);
+  border: none;
+  background-color: rgb(23,22,24);
+  box-shadow: 1px 1px 2px -0px #F5F5F5;
+}
+
+.descriptionSection {
+  display: flex;
+  width: 510px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.descriptionSection h2{
+  height: 80px;
+}
+
+.descriptionSection {
+  margin-left: 50px;
 }
 
 

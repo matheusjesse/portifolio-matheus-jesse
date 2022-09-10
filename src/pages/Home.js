@@ -40,49 +40,53 @@ function Home() {
         </div>
       </div>      
       <h1 className="skillTitle">Skills</h1>
-      <div className="skillSection">
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("react")}>
-            <Icons.ReactLogo />
-            React
+      <div className="skillContainer">
+        <div className="skillSection">
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("react")}>
+              <Icons.ReactLogo />
+              <p>React</p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("javascript")}>
+            <Icons.Javascript />
+              <p>JavaScript</p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("html")}>
+            <Icons.Html5 />
+              <p>HTML</p>
+            </div>
+          </div>
+          <hr className="skillCardHr" />
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("css")}>
+            <Icons.Css3 />
+            <p> CSS </p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("styledcomponents")}>
+            <Icons.Styledcomponents />
+              <p>Styled 
+                Components</p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("git")}>
+            <Icons.Git />
+            <p> Git </p>
+            </div>
           </div>
         </div>
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("javascript")}>
-          <Icons.Javascript />
-            JavaScript
-          </div>
-        </div>
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("html")}>
-          <Icons.Html5 />
-            HTML
-          </div>
-        </div>
-        <hr />
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("css")}>
-          <Icons.Css3 />
-           <p> CSS </p>
-          </div>
-        </div>
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("styledcomponents")}>
-          <Icons.Styledcomponents />
-            Styled
-            Components
-          </div>
-        </div>
-        <div className="skillCard">
-          <div className="skillCardIcon" onClick={() => setSkillCard("git")}>
-          <Icons.Git />
-           <p> Git </p>
-          </div>
+        <hr className="skillHr"></hr>
+        <div className="descriptionSection">
+          <h2>Clique nos icones de skill para ler uma breve descrição!</h2>
+          <p>{skillText}</p>          
         </div>
       </div>
-      <hr></hr>
-      <h2>Clique nos icones de skill para ler uma breve descrição!</h2>
-      <p>{skillText}</p>
       </HomeContainer>      
       <Footer />
     </>

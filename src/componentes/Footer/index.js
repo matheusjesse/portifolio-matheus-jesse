@@ -6,10 +6,9 @@ function Footer () {
   return (
     <FooterContainer>
       <a
-        // arrumar os links
-        href="www.linkedin.com/in/matheusjesse"
+        href="https://www.linkedin.com/in/matheusjesse"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <section>
           <Icons.LinkedinWithCircle />
@@ -17,10 +16,9 @@ function Footer () {
         </section>
       </a>
       <a
-        // arrumar os Links
-        href="www.linkedin.com/in/matheusjesse" 
+        href="https://www.linkedin.com/in/matheusjesse" 
         target="_blank" 
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <section>
           <Icons.Github />

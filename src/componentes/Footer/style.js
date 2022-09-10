@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 // background-color:  #F5F5F5;
 const FooterContainer = styled.footer`  
-  height: 80px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,17 +23,16 @@ const FooterContainer = styled.footer`
 
   section {
     width: 134px;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 32px;
+    flex-wrap: wrap;
   }
   
   svg {
-    width: 44px;
-    height: 44px;
-    margin-right: 8px;
+    width: 72px;
+    height: 72px;
   }
 
   section:hover,

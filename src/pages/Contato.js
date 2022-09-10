@@ -7,7 +7,6 @@ function Contato() {
   return(
     <>
       <Header />
-      <hr />
       <ContatoContainer>
         <FormContato />
       </ContatoContainer>

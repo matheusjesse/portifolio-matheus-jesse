@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ProjetoContainer = styled.div`
   width: 100%;
 
+  height: 76vh;
   h1 {
     text-align: center;
     margin-top: 142px;

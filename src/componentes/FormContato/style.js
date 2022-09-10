@@ -6,11 +6,9 @@ const FormContatoContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.6px);
   -webkit-backdrop-filter: blur(7.6px);   
   border-radius: 10px;
-  background: #F5F5F5;
 
   form {
     display: flex;
@@ -20,30 +18,26 @@ const FormContatoContainer = styled.div`
   }
 
   label {
-    background-color: #F5F5F5;
   }
   .menssagem-e-button {    
     display: flex;
     flex-direction: column;
-    background-color: #F5F5F5;
   }
 
   h1 {
-    background: #F5F5F5;
-    color: #00638A;
+    color: #F5F5F5;
   }
   input {
     width: 300px;
     height: 48px;
     border: none;
-    background: #F5F5F5;
-   
+    background: none;   
+    box-shadow: 0px 0px 4px  #20CDAC;
     border-radius: 8px;
     margin: 4px 0px 8px;
-    color: #001319;
+    color: #F5F5F5;
     font-size: 22px;
     padding-left: 6px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);   
   }
@@ -52,13 +46,13 @@ const FormContatoContainer = styled.div`
     width: 300px;
     height: 140px;
     border: none;
-    background: #F5F5F5;
+    background: none;
     border-radius: 8px;
     margin: 4px 0px 8px;
     font-size: 22px;
     padding-left: 6px;
-    color: #001319;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #F5F5F5;
+    box-shadow: 0px 0px 4px  #20CDAC;
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);   
   }
@@ -73,25 +67,25 @@ const FormContatoContainer = styled.div`
 
   textarea:focus, input:focus{
     outline: none;
-    border: 1px solid #00638A;
   }
 
 
   button {
     height: 40px;
     border-radius: 10px;
-    border: 1px solid white;
-    background-color: #00476D;
     font-size: 24px;    
+    color: #F5F5F5;
+    background: #20CDAC;
   }
 
   button:hover {
-    background-color:#00638A;
     border: none;    
+
+    border: 1px solid white;
   }
   
   button:disabled {
-        background-color: #405157;
+        background-color: none;
         color: white;
     } 
 `;

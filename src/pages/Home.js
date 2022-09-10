@@ -80,11 +80,43 @@ function Home() {
             <p> Git </p>
             </div>
           </div>
+          <hr className="skillCardHr" />
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("mysql")}>
+            <Icons.Mysql />
+            <p> Mysql </p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("nodejs")}>
+            <Icons.Nodejs />
+            <p> NodeJs </p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("sequelize")}>
+            <Icons.Sequelize />
+            <p> Sequelize </p>
+            </div>
+          </div>
+          <hr className="skillCardHr" />
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("jest")}>
+            <Icons.Jest />
+            <p> jest </p>
+            </div>
+          </div>
+          <div className="skillCard">
+            <div className="skillCardIcon" onClick={() => setSkillCard("express")}>
+            <Icons.Express />
+            <p> Express </p>
+            </div>
+          </div>
         </div>
         <hr className="skillHr"></hr>
         <div className="descriptionSection">
           <h2>Clique nos icones de skill para ler uma breve descrição!</h2>
-          <p>{skillText}</p>          
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{skillText}</p>          
         </div>
       </div>
       </HomeContainer>      

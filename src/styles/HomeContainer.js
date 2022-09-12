@@ -54,6 +54,7 @@ h1 {
   font-size: 3em;
   margin-bottom: 16px; 
   font-family: 'Biryani', sans-serif;
+  text-shadow: 1px 1px #08C8A4;
 }
 
 p {
@@ -61,7 +62,7 @@ p {
   font-size: 1.2em;
   margin-bottom: 48px;
   font-family: 'Biryani', sans-serif;
-  
+  text-shadow: -1px 0px #08C8A4;
 }
 
 h2 {

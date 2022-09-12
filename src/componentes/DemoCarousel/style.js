@@ -21,6 +21,26 @@ img {
   width: 260px;
 }
 
+.projetoDesc h1 {
+  margin: 0px;
+}
+
+div ul {
+  margin-left: 
+}
+
+h2, h3, p {
+  margin-left: 4px;
+}
+
+ul li {
+  margin-left: 42px;
+}
+
+a {
+  font-size: 18px;
+  margin-left: 4px;
+}
 
 `
 

@@ -33,12 +33,24 @@ function Carousel() {
           </img>
         </div>
           <div className="projetoDesc">
-            <h1>TESTE TESTE</h1>
-              <p> Lorem lorem lorem lorem loram loream
-                loram lormaw  dsadasd asd asdasdsadsad
-                ad iwakm spdmapsmdaosdjkassad asdadsada
-                asdsadasdasdasdasdasd.
-              </p>
+            <h1>Projeto TrybeTunes</h1>
+            <h2>Tecnologias Usadas</h2>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>React</li>
+                <li>StyledComponents</li>                
+              </ul>
+              <h3> Descrição </h3>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;A proposta do projeto foi 
+                desenvolver o front-end de uma aplicação
+                 web utilizando o end-point de uma API que retorna músicas 
+                 e albums de cantores famosos.</p>
+                 <a
+                    href="https://github.com/matheusjesse/projeto-trybetunes" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  > Veja no GuitHub </a>
           </div>
       </div>
       </DemoCarouselContainer>

@@ -62,7 +62,6 @@ p {
   font-size: 1.2em;
   margin-bottom: 48px;
   font-family: 'Biryani', sans-serif;
-  text-shadow: -1px 0px #08C8A4;
 }
 
 h2 {

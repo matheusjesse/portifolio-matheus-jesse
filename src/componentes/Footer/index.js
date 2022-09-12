@@ -16,7 +16,7 @@ function Footer () {
         </section>
       </a>
       <a
-        href="https://www.linkedin.com/in/matheusjesse" 
+        href="https://github.com/matheusjesse" 
         target="_blank" 
         rel="noopener noreferrer"
       >

@@ -4,7 +4,22 @@ const DemoCarouselContainer = styled.div`
 
 img {
   width: 200px;
+  height: 400px;  
+}
+
+.imageTodo {
+  border-radius: 20px;
+}
+
+.programingImage {
+  width: 400px;
   height: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px black;
+}
+
+.projetoImage div{
+  width: 200px;
 }
 
 .projetoCard {

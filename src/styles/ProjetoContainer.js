@@ -8,6 +8,7 @@ export const ProjetoContainer = styled.div`
   h1 {
     text-align: center;
     margin-top: 142px;
+    font-family: 'Alef', sans-serif;
   }
 
   .projetoSection {

@@ -44,6 +44,10 @@ div ul {
   margin-left: 
 }
 
+h1 {
+  font-family: 'Alef', sans-serif;
+}
+
 h2, h3, p {
   margin-left: 4px;
 }

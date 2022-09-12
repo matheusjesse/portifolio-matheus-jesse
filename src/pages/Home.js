@@ -23,7 +23,7 @@ function Home() {
       <HomeContainer>      
       <div className="contato-body">
         <div className="section-left">
-          <h1>Bem vindo,</h1>
+          <h1>Olá,</h1>
           <p>meu nome é Matheus Jessé, sempre fui fascinado na área de 
             tecnologia, atualmente estou estudando na Trybe e embreve me 
             formarei como web developer fullStack.

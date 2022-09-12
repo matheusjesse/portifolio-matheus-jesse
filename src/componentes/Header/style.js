@@ -8,6 +8,7 @@ const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
     margin: 40px 68px 0px 68px;
+    
   }
 
   p{
@@ -21,6 +22,8 @@ const HeaderContainer = styled.header`
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 8px 1px black;
+    
   }
 
   a {
@@ -36,6 +39,8 @@ const HeaderContainer = styled.header`
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     padding-left: 18px;
+    box-shadow: 1px 1px 8px 1px black;
+    
   }
 
   li {    

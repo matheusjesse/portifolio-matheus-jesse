@@ -214,6 +214,7 @@ button:hover {
 
 .descriptionSection h2{
   height: 80px;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
 
 .descriptionSection {

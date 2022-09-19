@@ -14,7 +14,7 @@ img {
 .programingImage {
   width: 400px;
   height: 400px;
-  border-radius: 10px;
+  border-radius: 50%;
   box-shadow: 1px 1px 4px 1px black;
 }
 

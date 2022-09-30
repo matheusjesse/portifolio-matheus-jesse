@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Icons from '../../componentes/Icons';
 import HeaderContainer from './style';
 
 function Header() {
@@ -7,17 +7,28 @@ function Header() {
     <HeaderContainer>
       <div className='header-container'>
         <p className="title-head">MATHEUS</p>
-        <ul>
-          <Link to="/home">
-            <li>HOME</li>
-          </Link>
-          <Link to="/projetos">
-            <li>PROJETOS</li>
-          </Link>
-          <Link to="/contato">
-            <li>CONTATO</li>
-          </Link>
-        </ul>               
+        <div className="links-section">
+          <a
+          href="https://www.linkedin.com/in/matheusjesse"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <section>
+              <Icons.LinkedinWithCircle />    
+              Linkedin
+            </section>
+          </a>
+          <a
+            href="https://github.com/matheusjesse" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <section>
+              <Icons.Github />
+              GitHub
+            </section>
+          </a>
+        </div>         
       </div>           
     </HeaderContainer>
   );

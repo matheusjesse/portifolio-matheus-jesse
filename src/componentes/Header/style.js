@@ -29,31 +29,41 @@ const HeaderContainer = styled.header`
   a {
     text-decoration: none;
   }
-  ul {
-    display: flex;
-    width: 400px;
+
+  .links-section {
+    width:  280px;
     height: 60px;
-    justify-content: center;
+    display: flex;  
+    font-size: 20px;  
+    border-radius: 40px;
     align-items: center;
-    border-radius: 60px;
+    text-align: center;
+    justify-content: space-evenly;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
-    padding-left: 18px;
     box-shadow: 1px 1px 8px 1px black;
-    
   }
 
-  li {    
-    height: 30px;
-    list-style: none;
-    margin-right: 18px;
-    font-size: 20px;
-    text-align: center;
-  }  
+  .links-section section {
+    width: 112px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-  li:hover {
-    box-shadow: 0 3px 1px -2px #08C8A4;
-  }  
+  .links-section section svg {
+    width: 22px;
+    margin-right: 4px;
+  }
+  
+  
+  .links-section section:hover,
+  section: hover svg{    
+    color: #08C8A4;
+    fill: #08C8A4;
+  }
+
     
 `;
 

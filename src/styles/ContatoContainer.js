@@ -6,6 +6,7 @@ export const ContatoContainer = styled.div`
   margin-top: 110px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+
 `
 export default ContatoContainer;

@@ -221,6 +221,11 @@ button:hover {
   margin-left: 50px;
 }
 
+#glow {
+  border: 4px solid white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 6px -1px white;
+}
 
 `;
 

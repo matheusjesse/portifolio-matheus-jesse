@@ -1,21 +1,26 @@
 import React, { useState } from 'react';
 import Header from '../componentes/Header';
 import Icons from '../componentes/Icons';
-import { Link } from 'react-router-dom';
 import { HomeContainer } from '../styles/HomeContainer';
 import Computer from '../assets/computer-react.svg';
 import Footer from '../componentes/Footer';
 import { useEffect } from 'react';
 import { text } from '../utils/HomeUtils'
+import Projetos from './Projetos';
+import Contato from './Contato';
 
 function Home() {  
 
   const [skillCard, setSkillCard] = useState("");
   const [skillText, setSkillText] = useState("");
   
+  useEffect(() => {    
+    setSkillText(text[skillCard]);
+  }, [skillCard]);
+
   useEffect(() => {
-    return setSkillText(text[skillCard]);
-  }, [skillCard])
+    setSkillCard("javascript");
+  }, []);
 
   return(
     <>
@@ -28,9 +33,6 @@ function Home() {
             tecnologia, atualmente estou estudando na Trybe e embreve me 
             formarei como web developer fullStack.
           </p>
-          <Link to="/projetos">
-            <button type="button">VER PROJETOS</button>
-          </Link>
         </div>
         <div className="section-right">
           <img 
@@ -44,77 +46,77 @@ function Home() {
         <div className="skillSection">
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("react")}>
-              <Icons.ReactLogo />
+              <Icons.ReactLogo id={skillCard === 'react' ? 'glow' : '' } />
               <p>React</p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("javascript")}>
-            <Icons.Javascript />
+            <Icons.Javascript id={skillCard === 'javascript' ? 'glow' : '' }/>
               <p>JavaScript</p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("html")}>
-            <Icons.Html5 />
+            <Icons.Html5 id={skillCard === 'html' ? 'glow' : '' }/>
               <p>HTML</p>
             </div>
           </div>
           <hr className="skillCardHr" />
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("css")}>
-            <Icons.Css3 />
+            <Icons.Css3 id={skillCard === 'css' ? 'glow' : '' }/>
             <p> CSS </p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("styledcomponents")}>
-            <Icons.Styledcomponents />
+            <Icons.Styledcomponents id={skillCard === 'styledcomponents' ? 'glow' : '' }/>
               <p>Styled 
                 Components</p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("git")}>
-            <Icons.Git />
+            <Icons.Git id={skillCard === 'git' ? 'glow' : '' }/>
             <p> Git </p>
             </div>
           </div>
           <hr className="skillCardHr" />
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("mysql")}>
-            <Icons.Mysql />
+            <Icons.Mysql id={skillCard === 'mysql' ? 'glow' : '' }/>
             <p> Mysql </p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("nodejs")}>
-            <Icons.Nodejs />
+            <Icons.Nodejs id={skillCard === 'nodejs' ? 'glow' : '' }/>
             <p> NodeJs </p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("sequelize")}>
-            <Icons.Sequelize />
+            <Icons.Sequelize id={skillCard === 'sequelize' ? 'glow' : '' }/>
             <p> Sequelize </p>
             </div>
           </div>
           <hr className="skillCardHr" />
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("jest")}>
-            <Icons.Jest />
+            <Icons.Jest id={skillCard === 'jest' ? 'glow' : '' }/>
             <p> jest </p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("express")}>
-            <Icons.Express />
+            <Icons.Express id={skillCard === 'express' ? 'glow' : '' }/>
             <p> Express </p>
             </div>
           </div>
           <div className="skillCard">
             <div className="skillCardIcon" onClick={() => setSkillCard("typescript")}>
-            <Icons.Typescript />
+            <Icons.Typescript id={skillCard === 'typescript' ? 'glow' : '' }/>
             <p> TypeScript </p>
             </div>
           </div>
@@ -125,7 +127,9 @@ function Home() {
           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{skillText}</p>          
         </div>
       </div>
-      </HomeContainer>      
+      </HomeContainer>
+      <Projetos />
+      <Contato />
       <Footer />
     </>
   );

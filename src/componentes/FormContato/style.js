@@ -95,13 +95,11 @@ const FormContatoContainer = styled.div`
   }
 
   button:hover {
-    border: none;    
-
-    border: 1px solid white;
+    border: none;
   }
   
   button:disabled {
-        background-color: none;
+        background-color: gray;
         color: white;
     } 
 `;

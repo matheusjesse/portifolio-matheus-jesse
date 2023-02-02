@@ -40,27 +40,27 @@ h3 {
 img {
   width: 594px;
   height: 594px;
-  padding-bottom: 180px;
 }
 
 .contato-body {
   display: flex;
   justify-content: center;  
-  height: 60vh;
-  margin-top: 140px;
+  height: 90vh;
+  margin-top: 88px;
 }
 
 h1 {
   font-size: 3em;
-  margin-bottom: 16px; 
+  margin-bottom: -46px;
+  margin-right: 76%;
   font-family: 'Biryani', sans-serif;
   text-shadow: 1px 1px #08C8A4;
 }
 
 p {
-  width: 450px;
-  font-size: 1.2em;
-  margin-bottom: 48px;
+  width: 520px;
+  font-size: 1em;
+  margin-bottom: 18px;
   font-family: 'Biryani', sans-serif;
 }
 
@@ -71,14 +71,26 @@ h2 {
 }
 
 .section-left {
-  width: 560px;
-  height: 400px;
-  
+  width: 598px;
+  height: 742px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .section-right {
-   width: 560px;
-   height: 600px;
+   width: 598px;
+   height: 742px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 button {
@@ -130,6 +142,7 @@ button:hover {
   text-align: center;
   width: 100%;  
   text-shadow: 1px 1px 2px #20CDAC;
+  margin-bottom: 48px;
 }
 
 .skillContainer {

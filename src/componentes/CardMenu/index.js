@@ -6,7 +6,7 @@ export default function CardMenu({image, altText, hoverText}) {
     return(
         <CardMenuContainer>
             <ImageContainer>
-                <img src={image} alt={altText}/>
+                <img src={image} alt={altText} />
             </ImageContainer>
             <div className='hoverContent'>
                 <p>{hoverText}</p>

@@ -9,6 +9,10 @@ const CardMenuContainer = styled.div`
         cursor: pointer; 
     }
 
+    :hover img {
+        fill: red;
+    }
+
     .hoverContent{
         display: none;
         box-shadow: 8px 8px 22px -8px #131313;
@@ -58,10 +62,10 @@ const ImageContainer = styled.div`
     align-items: center;
     justify-content: center;
     box-shadow: 8px 8px 22px -8px #131313;
-img {
+img svg{
         width: 64px;
         height: 64px;
-        fill: #131313;
+        fill: green !important;
     }
 `;
 

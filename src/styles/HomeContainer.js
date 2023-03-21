@@ -27,9 +27,10 @@ export const HomeContainer = styled.div`
     height: 40px;
     text-align: center;
     margin-top: -10px;
-    margin-left: -104px;
+    margin-left: -158px;
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
+    font-size: 18px;
   }
 `;
 

@@ -14,11 +14,13 @@ function Home() {
       <h1>Matheus Jessé</h1>
       <h2>Desenvolvedor Web</h2>
       <CardMenuSection>
-        <CardMenu 
-          image={EmailIcon}
-          altText={"Uma seta inclinada para cima no lado direito"}
-          hoverText={"Email"}
-        />
+        <a href="mailto:matheus_jesse@hotmail.com">
+          <CardMenu 
+            image={EmailIcon}
+            altText={"Uma seta inclinada para cima no lado direito"}
+            hoverText={"Email"}
+          />
+        </a>
         <CardMenu
           image={ProjectIcon}
           altText={"Uma reguá e um lapis um do lado do outro"}

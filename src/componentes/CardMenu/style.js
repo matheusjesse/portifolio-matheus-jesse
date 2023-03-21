@@ -4,10 +4,9 @@ const CardMenuContainer = styled.div`
     
     height: 128px;
     width: 132px;
-    
+    margin: 20px 4px 39px 4px;
     :hover {
         cursor: pointer; 
-
     }
 
     .hoverContent{

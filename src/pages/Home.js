@@ -11,33 +11,35 @@ function Home() {
 
   return(
     <HomeContainer>
-    <CardMenuSection>
-      <CardMenu 
-        image={EmailIcon}
-        altText={"Uma seta inclinada para cima no lado direito"}
-        hoverText={"Email"}
-      />
-      <CardMenu
-        image={ProjectIcon}
-        altText={"Uma reguá e um lapis um do lado do outro"}
-        hoverText={"Ver Projetos"}
-      />
-      <CardMenu
-        image={GitHubIcon}
-        altText={"Um circulo preto com a silhueta de um gato dentro"}
-        hoverText={"GitHub"}
-      />
-      <CardMenu
-        image={LinkedinIcon}
-        altText={"A letra I e a letra N um do lado do outro"}
-        hoverText={"Linkedin"}
-      />
-      <CardMenu
-        image={ProfileIcon}
-        altText={"ilustração de um homem do peito até a cabeça "}
-        hoverText={"Sobre"}
-      />
-     </CardMenuSection>
+      <h1>Matheus Jessé</h1>
+      <h2>Desenvolvedor Web</h2>
+      <CardMenuSection>
+        <CardMenu 
+          image={EmailIcon}
+          altText={"Uma seta inclinada para cima no lado direito"}
+          hoverText={"Email"}
+        />
+        <CardMenu
+          image={ProjectIcon}
+          altText={"Uma reguá e um lapis um do lado do outro"}
+          hoverText={"Ver Projetos"}
+        />
+        <CardMenu
+          image={GitHubIcon}
+          altText={"Um circulo preto com a silhueta de um gato dentro"}
+          hoverText={"GitHub"}
+        />
+        <CardMenu
+          image={LinkedinIcon}
+          altText={"A letra I e a letra N um do lado do outro"}
+          hoverText={"Linkedin"}
+        />
+        <CardMenu
+          image={ProfileIcon}
+          altText={"ilustração de um homem do peito até a cabeça "}
+          hoverText={"Sobre"}
+        />
+      </CardMenuSection>
     </HomeContainer>
   );
 }

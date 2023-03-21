@@ -32,6 +32,12 @@ export const HomeContainer = styled.div`
     font-weight: 300;
     font-size: 18px;
   }
+
+  @media only screen and (max-width: 400px) {
+    h1 {    
+    margin-top: 48px;
+  }
+  }
 `;
 
 const CardMenuSection = styled.div`
@@ -43,6 +49,13 @@ const CardMenuSection = styled.div`
   margin-bottom: 144px;
   align-content: space-around;
 
+  @media only screen and (max-width: 400px) {
+    margin-top: 10px;
+    margin-bottom: 88px;
+  }
+
 `;
+
+
 export default HomeContainer;
 export { CardMenuSection };

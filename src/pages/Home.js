@@ -26,16 +26,28 @@ function Home() {
           altText={"Uma reguá e um lapis um do lado do outro"}
           hoverText={"Ver Projetos"}
         />
-        <CardMenu
-          image={GitHubIcon}
-          altText={"Um circulo preto com a silhueta de um gato dentro"}
-          hoverText={"GitHub"}
-        />
-        <CardMenu
-          image={LinkedinIcon}
-          altText={"A letra I e a letra N um do lado do outro"}
-          hoverText={"Linkedin"}
-        />
+        <a
+        href="https://github.com/matheusjesse" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        >
+          <CardMenu
+            image={GitHubIcon}
+            altText={"Um circulo preto com a silhueta de um gato dentro"}
+            hoverText={"GitHub"}
+          />
+        </a>
+        <a
+        href="https://www.linkedin.com/in/matheusjesse"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <CardMenu
+            image={LinkedinIcon}
+            altText={"A letra I e a letra N um do lado do outro"}
+            hoverText={"Linkedin"}
+          />
+        </a>
         <CardMenu
           image={ProfileIcon}
           altText={"ilustração de um homem do peito até a cabeça "}

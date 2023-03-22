@@ -16,8 +16,8 @@ function Projetos() {
     <ProjetoContainer>
         <h1 className='titleProject'>Projetos</h1>
         <div className='projectMenu'>
-          <div className='menuProjectWeb' onClick={ () => setProjects(true)}>Desenvolvimento Web</div>
-          <div className='menuProjextUX' onClick={ () => setProjects(false)}>UX Designer</div>
+          <div className={`menuProjectWeb ${projects ? "menuSelect" : ""}` } onClick={ () => setProjects(true)}>Desenvolvimento Web</div>
+          <div className={`menuProjextUX ${!projects ? "menuSelect" : ""}`} onClick={ () => setProjects(false)}>UX Designer</div>
         </div>
         <div className="projectSection">
           {

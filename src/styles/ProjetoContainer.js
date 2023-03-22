@@ -13,6 +13,10 @@ export const ProjetoContainer = styled.div`
   .titleProject {
     width: 100%;
     text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 54px;
+    font-weight: 300;
+    color: #131313;
   }
 
   .projectMenu {
@@ -28,6 +32,7 @@ export const ProjetoContainer = styled.div`
     height: 24px;
     font-size: 22px;
     font-family: 'Overpass', sans-serif;
+    color: #131313;
     @media only screen and (max-width: 568px) {
       margin-right: 0px;
     }
@@ -39,7 +44,6 @@ export const ProjetoContainer = styled.div`
 
   .menuProjectWeb:hover {
     cursor: pointer;
-    border-bottom: 2px solid #0094FF;
   }
 
   .menuProjextUX {
@@ -47,6 +51,7 @@ export const ProjetoContainer = styled.div`
     font-size: 22px;
     height: 24px;
     font-family: 'Overpass', sans-serif;
+    color: #131313;
     @media only screen and (max-width: 568px) {
       margin-right: 8px;
       margin-left: 48px;
@@ -61,7 +66,6 @@ export const ProjetoContainer = styled.div`
 
   .menuProjextUX:hover {
     cursor: pointer;
-    border-bottom: 2px solid #0094FF;
   }
 
   .projectSection {
@@ -77,6 +81,9 @@ export const ProjetoContainer = styled.div`
     }
   }
 
+  .menuSelect {
+    border-bottom: 2px solid #0094FF;
+  }
 `;
 
 export default ProjetoContainer;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProjetoContainer from '../styles/ProjetoContainer';
 import {webProjects} from '../utils/HomeUtils';
 import ProjectCard from '../componentes/ProjectCard';
-
+import Header from '../componentes/Header';
 const EmptyProjextUX = () => {
   return(
     <div>Em Desenvolvimento</div>
@@ -14,6 +14,7 @@ function Projetos() {
 
   return(   
     <ProjetoContainer>
+        <Header title="projetos"/>
         <h1 className='titleProject'>Projetos</h1>
         <div className='projectMenu'>
           <div className={`menuProjectWeb ${projects ? "menuSelect" : ""}` } onClick={ () => setProjects(true)}>Desenvolvimento Web</div>

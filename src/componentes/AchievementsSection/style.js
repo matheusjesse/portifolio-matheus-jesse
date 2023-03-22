@@ -34,7 +34,7 @@ const AchievementsSectionContainer = styled.div`
         font-family: 'Overpass', sans-serif;
         font-size: 12px;
         color: #737373;
-        width: 124px;
+        width: 224px;
         margin-left: 12px;
     }
 `

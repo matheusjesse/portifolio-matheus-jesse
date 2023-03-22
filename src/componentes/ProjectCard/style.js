@@ -28,7 +28,7 @@ margin: 72px;
         color: #131313;
     }
     @media only screen and (max-width: 400px) {
-        width: 320px;
+        width: 310px;
         height: 230px;
     }
 }
@@ -41,7 +41,7 @@ margin: 72px;
         font-weight: 500;
         color: #131313;
         @media only screen and (max-width: 400px) {
-        padding-left: 8px;
+        width: 310px;
     }
     }
     p {
@@ -49,12 +49,12 @@ margin: 72px;
         font-family: 'Overpass', sans-serif;
         color: #393939;
         @media only screen and (max-width: 400px) {
-        padding-left: 8px;
+        width: 310px;
     }
     }
 
     @media only screen and (max-width: 400px) {
-        width: 320px;
+        width: 310px;
         height: 230px;
     }
 }

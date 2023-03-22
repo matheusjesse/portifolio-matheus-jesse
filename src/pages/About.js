@@ -5,6 +5,7 @@ import AboutImageSvg from '../assets/AboutImageSVG.svg';
 import WebSkillsSection from '../componentes/WebSkillsSection';
 import UxSkillSection from '../componentes/UxSkillsSection';
 import AchievementsSection from '../componentes/AchievementsSection';
+import Footer from '../componentes/Footer';
 import {skillsWeb, skillsUx, achievements} from '../utils/AboutUtils';
 
 function About() {
@@ -22,6 +23,8 @@ function About() {
         <UxSkillSection data={skillsUx} />
         <AchievementsSection data={achievements}/>
       </div>
+      <hr style={{width: "100%", visibility: "hidden"}} />
+      <Footer />
     </AboutContainer>
   );
 }

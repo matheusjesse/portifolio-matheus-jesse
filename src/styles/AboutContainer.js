@@ -45,5 +45,9 @@ export const AboutContainer = styled.div`
       }
       
   }
+
+  .moreInfoSection {
+    display: flex;
+  }
 `
 export default AboutContainer;

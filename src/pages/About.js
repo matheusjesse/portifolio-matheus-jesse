@@ -3,7 +3,8 @@ import AboutContainer from '../styles/AboutContainer';
 import AboutDescription from '../componentes/AboutDescription';
 import AboutImageSvg from '../assets/AboutImageSVG.svg';
 import WebSkillsSection from '../componentes/WebSkillsSection';
-import {skillsWeb} from '../utils/AboutUtils';
+import UxSkillSection from '../componentes/UxSkillsSection';
+import {skillsWeb, skillsUx} from '../utils/AboutUtils';
 function About() {
   return(
     <AboutContainer>
@@ -14,7 +15,10 @@ function About() {
       <hr style={{width: "100%", visibility: "hidden"}} />
       <hr className='lineStyle' />
       <hr style={{width: "100%", visibility: "hidden"}} />
-      <WebSkillsSection data={skillsWeb}/>
+      <div className='moreInfoSection'>
+        <WebSkillsSection data={skillsWeb}/>
+        <UxSkillSection data={skillsUx} />
+      </div>
     </AboutContainer>
   );
 }

@@ -48,6 +48,9 @@ export const AboutContainer = styled.div`
 
   .moreInfoSection {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
   }
 `
 export default AboutContainer;

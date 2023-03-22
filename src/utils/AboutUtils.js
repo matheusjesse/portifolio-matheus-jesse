@@ -33,10 +33,10 @@ export const skillsUx = [
     "Estudando"
 ]
 
-export const conquistas = [
+export const achievements = [
     {
         title: "Desenvolvimento Full-Stack - TRYBE",
-        skills: [
+        certificate: [
             "Desenvolvimento Web Fundamentos",
             "Desenvolvimento Web Front-End",
             "Desenvolvimento Web Back-End",
@@ -45,7 +45,7 @@ export const conquistas = [
     },
     {
         title: "UX Designer - Coursera | Google",
-        skills: [
+        certificate: [
             "Fundamentos do design da experiência do usuário (UX)",
         ]
     }

@@ -4,7 +4,9 @@ import AboutDescription from '../componentes/AboutDescription';
 import AboutImageSvg from '../assets/AboutImageSVG.svg';
 import WebSkillsSection from '../componentes/WebSkillsSection';
 import UxSkillSection from '../componentes/UxSkillsSection';
-import {skillsWeb, skillsUx} from '../utils/AboutUtils';
+import AchievementsSection from '../componentes/AchievementsSection';
+import {skillsWeb, skillsUx, achievements} from '../utils/AboutUtils';
+
 function About() {
   return(
     <AboutContainer>
@@ -18,6 +20,7 @@ function About() {
       <div className='moreInfoSection'>
         <WebSkillsSection data={skillsWeb}/>
         <UxSkillSection data={skillsUx} />
+        <AchievementsSection data={achievements}/>
       </div>
     </AboutContainer>
   );

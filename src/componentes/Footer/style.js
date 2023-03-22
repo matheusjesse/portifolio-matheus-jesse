@@ -6,7 +6,6 @@ const FooterContainer = styled.footer`
   width: 100%;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 2px 4px -1px white;
 
   img {
     width: 60px;

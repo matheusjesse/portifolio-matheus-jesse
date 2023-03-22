@@ -84,6 +84,13 @@ export const ProjetoContainer = styled.div`
   .menuSelect {
     border-bottom: 2px solid #0094FF;
   }
+
+  .uxProjectSection {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export default ProjetoContainer;

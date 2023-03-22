@@ -3,9 +3,11 @@ import ProjetoContainer from '../styles/ProjetoContainer';
 import {webProjects} from '../utils/HomeUtils';
 import ProjectCard from '../componentes/ProjectCard';
 import Header from '../componentes/Header';
+import Footer from '../componentes/Footer';
+
 const EmptyProjextUX = () => {
   return(
-    <div>Em Desenvolvimento</div>
+    <div className='uxProjectSection'>Em Desenvolvimento</div>
   )
 }
 
@@ -28,6 +30,7 @@ function Projetos() {
             ) :   <EmptyProjextUX />
           }
         </div>
+        <Footer />
     </ProjetoContainer>
   );
 }

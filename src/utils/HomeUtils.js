@@ -5,6 +5,7 @@ import DiverseIconSVG from '../assets/diverseIcon.svg';
 
 export const webProjects = [
   {
+    id: 1,
     title: "API de ToDos",
     subTitle: "Uma API de ToDos e Registro de usuários",
     Description: `Uma API onde o usuário consegue criar 
@@ -16,6 +17,7 @@ export const webProjects = [
     color: "#CDFFE1"
   },
   {
+    id: 2,
     title: "Carteira Digital",
     subTitle: "Uma aplicação full-stack de transação de dinheiro.",
     Description: `Uma aplicação onde o usuário pode fazer cadastro 
@@ -26,6 +28,7 @@ export const webProjects = [
     color: "#FFCCAF"
   },
   {
+    id: 3,
     title: "Aplicativo de Receitas",
     subTitle: "Uma aplicação front-end de receitas.",
     Description: `Uma aplicação de receitas, contendo 
@@ -37,6 +40,7 @@ export const webProjects = [
     color: "#FDF9A6"
   },
   {
+    id: 4,
     title: "Veja outros projetos no meu GitHub",
     subTitle: "Acesse meu GitHub e veja meus projetos pinados :)",
     Description: `O GitHub é usado para armazenar códigos de programação, 

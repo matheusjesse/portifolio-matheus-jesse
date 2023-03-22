@@ -25,7 +25,9 @@ export const ProjetoContainer = styled.div`
 
   .menuProjectWeb {
     margin-right: 68px;
+    height: 24px;
     font-size: 22px;
+    font-family: 'Overpass', sans-serif;
     @media only screen and (max-width: 568px) {
       margin-right: 0px;
     }
@@ -34,9 +36,16 @@ export const ProjetoContainer = styled.div`
       font-size: 18px;
     }
   }
+
+  .menuProjectWeb:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #0094FF;
+  }
+
   .menuProjextUX {
     margin-left: 68px;
     font-size: 22px;
+    height: 24px;
     font-family: 'Overpass', sans-serif;
     @media only screen and (max-width: 568px) {
       margin-right: 8px;
@@ -48,6 +57,11 @@ export const ProjetoContainer = styled.div`
       font-size: 18px;
 
     }
+  }
+
+  .menuProjextUX:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #0094FF;
   }
 
   .projectSection {

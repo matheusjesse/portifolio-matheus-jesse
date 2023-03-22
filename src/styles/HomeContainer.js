@@ -51,7 +51,7 @@ const CardMenuSection = styled.div`
 
   @media only screen and (max-width: 400px) {
     margin-top: 10px;
-    margin-bottom: 88px;
+    margin-bottom: 108px;
   }
 
 `;

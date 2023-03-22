@@ -7,6 +7,10 @@ const HeaderContainer = styled.header`
   align-items: center;
   margin-right: 44px;
   height: 144px;
+
+  @media only screen and (max-width: 447px) {
+    margin-right: 0px;
+  }
   .menuContainer {
       display: flex;
       width: 164px;

@@ -7,6 +7,8 @@ import GitHubIcon from '../assets/githubIcon.svg';
 import LinkedinIcon from '../assets/linkedinIcon.svg';
 import ProfileIcon from '../assets/profileIcon.svg';
 import {CardMenuSection} from '../styles/HomeContainer';
+import { Link } from "react-router-dom";
+
 function Home() {  
 
   return(
@@ -21,11 +23,13 @@ function Home() {
             hoverText={"Email"}
           />
         </a>
-        <CardMenu
-          image={ProjectIcon}
-          altText={"Uma reguá e um lapis um do lado do outro"}
-          hoverText={"Ver Projetos"}
-        />
+        <Link to="/projetos">
+          <CardMenu
+            image={ProjectIcon}
+            altText={"Uma reguá e um lapis um do lado do outro"}
+            hoverText={"Ver Projetos"}
+          />
+        </Link>
         <a
         href="https://github.com/matheusjesse" 
         target="_blank" 
@@ -48,11 +52,13 @@ function Home() {
             hoverText={"Linkedin"}
           />
         </a>
-        <CardMenu
-          image={ProfileIcon}
-          altText={"ilustração de um homem do peito até a cabeça "}
-          hoverText={"Sobre"}
-        />
+        <Link to="/about">
+          <CardMenu
+            image={ProfileIcon}
+            altText={"ilustração de um homem do peito até a cabeça "}
+            hoverText={"Sobre"}
+          />
+        </Link>
       </CardMenuSection>
     </HomeContainer>
   );

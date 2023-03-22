@@ -10,6 +10,9 @@ export const HomeContainer = styled.div`
   align-content: flex-start;
   background-image: linear-gradient(to right bottom, #f3f4ef, #f0f1ec, #ecede9, #e9eae6, #e6e7e3);
    
+  a {
+    text-decoration: none;
+  }
   
   h1 {
     color: #131313;

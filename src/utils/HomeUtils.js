@@ -81,7 +81,7 @@ export const webProjects = [
       image: RecipeImage,
       imageAlt: "Um imagem de celular onde mostra a tela inicial de um aplicativo de receitas com algumas imagens de comida.",
       text: `O desafio foi desenvolver o front-end de uma aplicação web utilizando 
-      o end-point da API pública. O TheMealDB é um banco de dados aberto, mantido 
+      o end-point de uma API pública. O TheMealDB é um banco de dados aberto, mantido 
       pela comunidade, com receitas e ingredientes.`,
       technologies: [
         "JavaScript",
@@ -97,9 +97,9 @@ export const webProjects = [
   {
     id: 4,
     title: "Aplicação de Música",
-    subTitle: "Acesse meu GitHub e veja meus projetos pinados :)",
-    Description: `O GitHub é usado para armazenar códigos de programação, 
-    produzidos por desenvolvedores do mundo todo.`,
+    subTitle: "Uma Aplicação front-end de Músicas.",
+    Description: `Uma aplicação que o usuário pode digitar seu nome
+    para entrar e pesquisar músicas de sua escolha.`,
     image: MusicIconSVG,
     imageAlt: "Uma ilustração de uma agenda, tablete e uma reguá um do lado do outro",
     color: "#E9D1FC",

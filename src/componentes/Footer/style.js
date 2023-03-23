@@ -3,9 +3,9 @@ import styled from 'styled-components';
 const FooterContainer = styled.footer`  
   height: 140px;
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 2px 4px -1px white;
 
   img {
     width: 60px;
@@ -18,28 +18,32 @@ const FooterContainer = styled.footer`
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   section {
-    width: 134px;
+    width: 88px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  
   
   svg {
-    width: 72px;
-    height: 72px;
+    width: 52px;
+    height: 52px;
+    fill: #131313;
   }
-
   section:hover,
   section: hover svg{    
-    color: #08C8A4;
-    fill: #08C8A4;
+    fill: #0094FF;
   }
+
+
+  
 
 `;
 

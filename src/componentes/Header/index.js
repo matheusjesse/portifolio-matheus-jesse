@@ -1,35 +1,38 @@
 import React from 'react';
-import Icons from '../../componentes/Icons';
 import HeaderContainer from './style';
+import { Link } from "react-router-dom";
+const ProjectHeader = () => { 
+  return(
+    <div className='menuContainer'>
+      <Link to="/home">
+        <div className='titleText'>Início</div>
+      </Link>
+      <Link to="/about">
+        <div className='titleText'>Sobre</div>
+      </Link>
+    </div>
+  )
+}
 
-function Header() {
+const AboutHeader = () => { 
+  return(
+    <div className='menuContainer'>
+        <Link to="/home">
+          <div className='titleText'>Início</div>
+        </Link>
+        <Link to="/projetos">
+          <div className='titleText'>Projetos</div>
+        </Link>
+    </div>
+  )
+}
+
+function Header({title}) {
   return(
     <HeaderContainer>
-      <div className='header-container'>
-        <p className="title-head">MATHEUS</p>
-        <div className="links-section">
-          <a
-          href="https://www.linkedin.com/in/matheusjesse"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-            <section>
-              <Icons.LinkedinWithCircle />    
-              Linkedin
-            </section>
-          </a>
-          <a
-            href="https://github.com/matheusjesse" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <section>
-              <Icons.Github />
-              GitHub
-            </section>
-          </a>
-        </div>         
-      </div>           
+        {
+          title === "projetos" ? <ProjectHeader /> : <AboutHeader />
+        }
     </HeaderContainer>
   );
 }

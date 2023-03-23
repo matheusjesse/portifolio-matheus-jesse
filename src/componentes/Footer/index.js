@@ -12,7 +12,6 @@ function Footer () {
       >
         <section>
           <Icons.LinkedinWithCircle />
-          Linkedin
         </section>
       </a>
       <a
@@ -22,7 +21,6 @@ function Footer () {
       >
         <section>
           <Icons.Github />
-          GitHub
         </section>
       </a>
     </FooterContainer>

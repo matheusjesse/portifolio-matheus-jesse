@@ -2,244 +2,63 @@ import styled from 'styled-components';
 
 
 export const HomeContainer = styled.div`
-
-height: 100%;
-
-ul {
-  width: 300px;
-  display: flex;  
-  list-style: none;
-  margin-bottom: 48px;
-}
-
-li {
-  
-  height: 40px;
-  width: 40px;
-  margin-right: 20px;
-  padding: 4px;
-}
-
-svg {
-  width: 50px;
-}
-
-li:hover {
-  padding: 0px;
-}
-
-li svg:hover {
-  fill: #08C8A4;
-}
-
-h3 {
-  font-size: 12px;
-  text-align: center;
-}
-
-img {
-  width: 594px;
-  height: 594px;
-}
-
-.contato-body {
-  display: flex;
-  justify-content: center;  
-  height: 90vh;
-  margin-top: 88px;
-}
-
-h1 {
-  font-size: 3em;
-  margin-bottom: -46px;
-  margin-right: 76%;
-  font-family: 'Biryani', sans-serif;
-  text-shadow: 1px 1px #08C8A4;
-}
-
-p {
-  width: 520px;
-  font-size: 1em;
-  margin-bottom: 18px;
-  font-family: 'Biryani', sans-serif;
-}
-
-h2 {
-  font-size: 1.3em;
-  margin-bottom: 16px;
-  font-family: 'Biryani', sans-serif;
-}
-
-.section-left {
-  width: 598px;
-  height: 742px;
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.section-right {
-   width: 598px;
-   height: 742px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-button {
-  width: 243px;
-  height: 55px;
-  border-radius: 8px;
-  border: none;
-  font-size: 20px;
-  color: white;
-  background: #08C8A4;
-  font-weight: bold;
-  box-shadow: 1px 1px -0px 1px #F5F5F5;
-  font-family: 'Biryani', sans-serif;
-  padding-top: 6px;
-}
-
-button:hover {
-  border: none;
-  background-color: #F5F5F5;
-  color: #08C8A4;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltipText {
-  visibility: hidden;
-  width: 250px;
-  background-color: #F5F5F5;
-  color: #031014;
-  text-align: center;
-  padding: 5px;
-  border-radius: 4px; 
-  position: absolute;
-  z-index: 1;
-  text-align: left;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -118px; 
-}
-
-.tooltip:hover .tooltipText {
-  visibility: visible;
-}
-
-.skillTitle {
-  text-align: center;
-  width: 100%;  
-  text-shadow: 1px 1px 2px #20CDAC;
-  margin-bottom: 48px;
-}
-
-.skillContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.skillSection {
-  height: 640px;
-  width: 560px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0px 360px 0px;
-}
-
-.skillCard {  
-  width: 136px;
-  height: 140px;
-  display: flex;
-  background: none;
-  backdrop-filter: blur(22px);
-  border-radius: 8px;
-  padding: 8px 8px 8px 8px;
-  margin-right: 8px;  
-  margin-left: 8px;
-}
-
-.skillCardIcon {  
-  height: 134px;
-  min-width: 124px;  
-  display: column;
-  text-align: center;
-  padding-top: 9px;
-  color: white;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.skillCard:hover .skillCardText {
-  color: white;
-}
-
-
-.skillCardIcon svg {
-  width: 80px;
-  fill: white;  
-}
-
-.skillCardIcon:hover svg, 
-.skillCardIcon:hover p{
-  fill:#20CDAC;
-  color: #20CDAC;
-}
-
-.skillCardIcon p {
-  width: 122px;
-  font-size: 14px;
-}
-
-.skillCardHr {
-  width: 100%;
-  visibility: hidden;
-}
-
-.skillHr {
-  height: 580px;
-  width: 1px;
-  color: rgb(23,22,24);
-  border: none;
-  background-color: rgb(23,22,24);
-  box-shadow: 1px 1px 2px -0px #F5F5F5;
-}
-
-.descriptionSection {
-  display: flex;
-  width: 510px;
   align-content: flex-start;
+  background-image: linear-gradient(to right bottom, #f3f4ef, #f0f1ec, #ecede9, #e9eae6, #e6e7e3);
+   
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #131313;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 54px;
+    margin-top: 188px;
+  }
+
+  h2 {
+    width: 100%;
+    color: #131313;
+    height: 40px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -158px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    h1 {    
+    margin-top: 48px;
+  }
+  }
+`;
+
+const CardMenuSection = styled.div`
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-}
+  width: 80%;
+  margin-top: 144px;
+  margin-bottom: 144px;
+  align-content: space-around;
 
-.descriptionSection h2{
-  height: 80px;
-  font-family: 'Encode Sans Expanded', sans-serif;
-}
-
-.descriptionSection {
-  margin-left: 50px;
-}
-
-#glow {
-  border: 4px solid white;
-  border-radius: 50px;
-  box-shadow: 1px 1px 6px -1px white;
-}
+  @media only screen and (max-width: 400px) {
+    margin-top: 10px;
+    margin-bottom: 108px;
+  }
 
 `;
 
+
 export default HomeContainer;
+export { CardMenuSection };

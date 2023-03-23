@@ -1,33 +1,124 @@
-export const text = {
-  javascript: `O JavaScript é uma linguagem de programação de alto nível voltada para o desenvolvimento web, 
-  criada originalmente para funcionar do lado do usuário, ou seja, nos navegadores. Junto do HTML e do CSS, é uma 
-  das principais tecnologias da web, permitindo a criação de páginas interativas com elementos dinâmicos e boa performance.`,
-  html: `A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet 
-  e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta 
-  por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.`,
-  css: `CSS é uma linguagem de estilo, também conhecida como folhas de estilo em cascata. É usada para personalização visual de um site. Ou seja, 
-  elas servem para otimizar o conteúdo das páginas e permitir uma apresentação mais amigável para o usuário.`,
-  styledcomponents: `Basicamente, styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. Com ele, você pode criar 
-  websites bonitos e funcionais. Além disso, ganhar mais agilidade e precisão no desenvolvimento web. `,
-  git: `um sistema de controle de versão de arquivos. Através deles podemos 
-  desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente.`,
-  react: `O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário 
-  (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites.`,
-  mysql: `O MySQL é um sistema gerenciador de banco de dados relacional de código aberto 
-  usado na maioria das aplicações gratuitas para gerir suas bases de dados. O serviço utiliza a 
-  linguagem SQL (Structure Query Language – Linguagem de Consulta Estruturada), que é a linguagem 
-  mais popular para inserir, acessar e gerenciar o conteúdo armazenado num banco de dados.`,
-  nodejs: `O Node.js pode ser definido como um ambiente de execução Javascript server-side.
-  Isso significa que com o Node.js é possível criar aplicações Javascript para rodar como uma 
-  aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados.`,
-  sequelize: `O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node.js e io.js, e suporta os 
-  dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.`,
-  jest: `É a ferramenta de teste mais popular e recomendada para React. Ele é criado pelo Facebook. Jest não é apenas uma biblioteca, 
-  é uma estrutura de teste. Isso significa que vem com uma biblioteca de asserções, executor de teste e suporte para coisas. Como foi projetado 
-  especificamente para testar os aplicativos React, também pode ser usado em outras estruturas JavaScript.`,
-  express: `O Express.js é um Framework rápido e um dos mais utilizados em conjunto com o Node.js, facilitando no desenvolvimento de aplicações back-end 
-  e até, em conjunto com sistemas de templates, aplicações full-stack.`,
-  typescript: `TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e 
-  adiciona tipagem estática opcional à linguagem. Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o 
-  TypeScript valide se seu código está funcionando corretamente.`
-}
+import TodoIconSVG from '../assets/TodoIcon.svg';
+import WalletIconSVG from '../assets/walletIcon.svg';
+import CupIconSVG from '../assets/cupIcon.svg';
+import MusicIconSVG from '../assets/musicaIcon.svg';
+import TodoImage from '../assets/todoapi.png';
+import CarteiraDigital from '../assets/carteiraDigitalImage.png';
+import RecipeImage from '../assets/recipeApp.png';
+import MusicApp from '../assets/aplicacaomusica.png';
+
+export const webProjects = [
+  {
+    id: 1,
+    title: "API de ToDos",
+    subTitle: "Uma API de ToDos e Registro de usuários",
+    Description: `Uma API onde o usuário consegue criar 
+    uma conta e gerenciar sua lista de afazeres, podendo 
+    editar, deletar, registrar, além de poder classificar 
+    os afazeres pelo dia da semana e período do dia.`,
+    image: TodoIconSVG,
+    imageAlt: "Uma ilustração de folha e caneta",
+    color: "#CDFFE1",
+    details: {
+      url: "https://github.com/matheusjesse/todo-api",
+      image: TodoImage,
+      imageAlt: "uma imagem que mostra uma lista com chamadas de API",
+      text: `A proposta do projeto foi
+      desenvolver uma API para gerenciar um aplicativo de afazeres,
+      afim de praticar as tecnologias listadas a baixo.`,
+      technologies: [
+        "TypeScript",
+        "Node.JS",
+        "Express.JS",
+        "Test de Integração (mocha, chai, sinon)",
+        "Sequelize(db: MySQL)",
+        "Biblioteca Joi",
+        "Biblioteca Jsonwebtoken"
+      ]
+    }
+  },
+  {
+    id: 2,
+    title: "Carteira Digital",
+    subTitle: "Uma aplicação full-stack de transação de dinheiro.",
+    Description: `Uma aplicação onde o usuário pode fazer cadastro 
+    e visualizar sua carteira, além de fazer transações de dinheiro 
+    para outros usuários cadastrados`,
+    image: WalletIconSVG,
+    imageAlt: "Uma ilustração de uma carteira com dinheiro saindo por cima",
+    color: "#FFCCAF",
+    details: {
+      url: "https://github.com/matheusjesse/carteira-digital",
+      image: CarteiraDigital,
+      imageAlt: "Um formulario onde tem dois campos para o usuário colocar seu usuário e senha e também um botão para fazer login",
+      text: `Um projeto full-stack, onde foi desenvolvido um back-end para que 
+      usuário possa se cadastrar e fazer transferência de dinheiro, além do 
+      front-end para que o usuário possa interagir com a aplicação.`,
+      technologies: [
+        "React.JS",
+        "Styled-Components",
+        "Context",
+        "Node.JS",
+        "Express.JS",
+        "TypeScript",
+        "MongoDB",
+      ]
+    }
+  },
+  {
+    id: 3,
+    title: "Aplicativo de Receitas",
+    subTitle: "Uma aplicação front-end de receitas.",
+    Description: `Uma aplicação de receitas, contendo 
+    receitas tanto de bebidas e comidas, onde o usuário 
+    pode escolher sua receita, filtrar e favoritas suas 
+    opções favoritas. (desenvolvida em equipe)`,
+    image: CupIconSVG,
+    imageAlt: "Uma ilustração de um copo com canudo",
+    color: "#FDF9A6",
+    details: {
+      url: "https://github.com/matheusjesse/recipes-app",
+      image: RecipeImage,
+      imageAlt: "Um imagem de celular onde mostra a tela inicial de um aplicativo de receitas com algumas imagens de comida.",
+      text: `O desafio foi desenvolver o front-end de uma aplicação web utilizando 
+      o end-point de uma API pública. O TheMealDB é um banco de dados aberto, mantido 
+      pela comunidade, com receitas e ingredientes.`,
+      technologies: [
+        "JavaScript",
+        "Styled-Components",
+        "React.JS",
+        "Metodologia ágil Scrum",
+        "HTML",
+        "CSS",
+        "Context",
+      ]
+    }
+  },
+  {
+    id: 4,
+    title: "Aplicação de Música",
+    subTitle: "Uma Aplicação front-end de Músicas.",
+    Description: `Uma aplicação que o usuário pode digitar seu nome
+    para entrar e pesquisar músicas de sua escolha.`,
+    image: MusicIconSVG,
+    imageAlt: "Uma ilustração de uma agenda, tablete e uma reguá um do lado do outro",
+    color: "#E9D1FC",
+    details: {
+      url: "https://github.com/matheusjesse/projeto-trybetunes",
+      image: MusicApp,
+      imageAlt: "Uma imagem de celular que mostra um aplicativo de música com uma lista de músicas da banda Queen.",
+      text: `O desafio do projeto foi consumir uma API de música e desenvolver 
+      o front-end da aplicação, para que o usuário pudesse, pesquisar suas musicas 
+      e cantores favoritos, além de poder favoritar as músicas e dar play.`,
+      technologies: [
+        "JavaScript",
+        "React",
+        "Styled-Components",
+        "Ciclo de vida de componente React",
+        "HTML",
+        "CSS",
+      ]
+    }
+  }
+]
+

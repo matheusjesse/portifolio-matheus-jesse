@@ -154,7 +154,7 @@ const DetailsProjectContainer = styled.div`
         flex-wrap: wrap;
         width: 382px;
         margin-top: 18px;
-        
+        height: 400px;
         @media only screen and (max-width: 641px) {
             height: 300px;
         }

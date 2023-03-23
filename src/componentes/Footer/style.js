@@ -30,21 +30,16 @@ const FooterContainer = styled.footer`
     flex-wrap: wrap;
   }
 
-  section svg {
-    fill: #131313;
-    width: 82px;
-  }
   
-  svg {
-    width: 52px;
-    height: 52px;
+  
+  section > svg {
+    width: 42px;
+    height: 42px;
+    fill: #5987E1 !important;
+    
   }
 
-  section:hover,
-  section: hover svg{    
-    color: #5987E1;
-    fill: #5987E1;
-  }
+  
 
 `;
 

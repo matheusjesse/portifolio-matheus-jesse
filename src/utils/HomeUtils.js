@@ -1,7 +1,11 @@
 import TodoIconSVG from '../assets/TodoIcon.svg';
 import WalletIconSVG from '../assets/walletIcon.svg';
 import CupIconSVG from '../assets/cupIcon.svg';
-import DiverseIconSVG from '../assets/diverseIcon.svg';
+import MusicIconSVG from '../assets/musicaIcon.svg';
+import TodoImage from '../assets/todoapi.png';
+import CarteiraDigital from '../assets/carteiraDigitalImage.png';
+import RecipeImage from '../assets/recipeApp.png';
+import MusicApp from '../assets/aplicacaomusica.png';
 
 export const webProjects = [
   {
@@ -14,7 +18,24 @@ export const webProjects = [
     os afazeres pelo dia da semana e período do dia.`,
     image: TodoIconSVG,
     imageAlt: "Uma ilustração de folha e caneta",
-    color: "#CDFFE1"
+    color: "#CDFFE1",
+    details: {
+      url: "https://github.com/matheusjesse/todo-api",
+      image: TodoImage,
+      imageAlt: "uma imagem que mostra uma lista com chamadas de API",
+      text: `A proposta do projeto foi
+      desenvolver uma API para gerenciar um aplicativo de afazeres,
+      afim de praticar as tecnologias listadas a baixo.`,
+      technologies: [
+        "TypeScript",
+        "Node.JS",
+        "Express.JS",
+        "Test de Integração (mocha, chai, sinon)",
+        "Sequelize(db: MySQL)",
+        "Biblioteca Joi",
+        "Biblioteca Jsonwebtoken"
+      ]
+    }
   },
   {
     id: 2,
@@ -25,7 +46,24 @@ export const webProjects = [
     para outros usuários cadastrados`,
     image: WalletIconSVG,
     imageAlt: "Uma ilustração de uma carteira com dinheiro saindo por cima",
-    color: "#FFCCAF"
+    color: "#FFCCAF",
+    details: {
+      url: "https://github.com/matheusjesse/carteira-digital",
+      image: CarteiraDigital,
+      imageAlt: "Um formulario onde tem dois campos para o usuário colocar seu usuário e senha e também um botão para fazer login",
+      text: `Um projeto full-stack, onde foi desenvolvido um back-end para que 
+      usuário possa se cadastrar e fazer transferência de dinheiro, além do 
+      front-end para que o usuário possa interagir com a aplicação.`,
+      technologies: [
+        "React.JS",
+        "Styled-Components",
+        "Context",
+        "Node.JS",
+        "Express.JS",
+        "TypeScript",
+        "MongoDB",
+      ]
+    }
   },
   {
     id: 3,
@@ -37,16 +75,50 @@ export const webProjects = [
     opções favoritas. (desenvolvida em equipe)`,
     image: CupIconSVG,
     imageAlt: "Uma ilustração de um copo com canudo",
-    color: "#FDF9A6"
+    color: "#FDF9A6",
+    details: {
+      url: "https://github.com/matheusjesse/recipes-app",
+      image: RecipeImage,
+      imageAlt: "Um imagem de celular onde mostra a tela inicial de um aplicativo de receitas com algumas imagens de comida.",
+      text: `O desafio foi desenvolver o front-end de uma aplicação web utilizando 
+      o end-point da API pública. O TheMealDB é um banco de dados aberto, mantido 
+      pela comunidade, com receitas e ingredientes.`,
+      technologies: [
+        "JavaScript",
+        "Styled-Components",
+        "React.JS",
+        "Metodologia ágil Scrum",
+        "HTML",
+        "CSS",
+        "Context",
+      ]
+    }
   },
   {
     id: 4,
-    title: "Veja outros projetos no meu GitHub",
+    title: "Aplicação de Música",
     subTitle: "Acesse meu GitHub e veja meus projetos pinados :)",
     Description: `O GitHub é usado para armazenar códigos de programação, 
     produzidos por desenvolvedores do mundo todo.`,
-    image: DiverseIconSVG,
+    image: MusicIconSVG,
     imageAlt: "Uma ilustração de uma agenda, tablete e uma reguá um do lado do outro",
-    color: "#E9D1FC"
+    color: "#E9D1FC",
+    details: {
+      url: "https://github.com/matheusjesse/projeto-trybetunes",
+      image: MusicApp,
+      imageAlt: "Uma imagem de celular que mostra um aplicativo de música com uma lista de músicas da banda Queen.",
+      text: `O desafio do projeto foi consumir uma API de música e desenvolver 
+      o front-end da aplicação, para que o usuário pudesse, pesquisar suas musicas 
+      e cantores favoritos, além de poder favoritar as músicas e dar play.`,
+      technologies: [
+        "JavaScript",
+        "React",
+        "Styled-Components",
+        "Ciclo de vida de componente React",
+        "HTML",
+        "CSS",
+      ]
+    }
   }
 ]
+

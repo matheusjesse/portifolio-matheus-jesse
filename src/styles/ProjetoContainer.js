@@ -8,6 +8,7 @@ export const ProjetoContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;
+  background-color: #fefefe;
   background-image: linear-gradient(to right bottom, #f3f4ef, #f0f1ec, #ecede9, #e9eae6, #e6e7e3);
    
   .titleProject {

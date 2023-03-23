@@ -63,7 +63,7 @@ const DetailsProjectContainer = styled.div`
             margin-right: 0px;
             margin-bottom: 0px;
         }
-        @media only screen and (max-width: 420px) {
+        @media only screen and (max-width: 605px) {
             display: none;
         }
     }
@@ -152,6 +152,8 @@ const DetailsProjectContainer = styled.div`
         display: flex;
         flex-wrap: wrap;
         width: 382px;
+        height: 300px;
+        margin-top: 18px;
     }
     
     

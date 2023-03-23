@@ -32,12 +32,16 @@ const FooterContainer = styled.footer`
 
   
   
-  section > svg {
-    width: 42px;
-    height: 42px;
-    fill: #5987E1 !important;
-    
+  svg {
+    width: 52px;
+    height: 52px;
+    fill: #131313;
   }
+  section:hover,
+  section: hover svg{    
+    fill: #0094FF;
+  }
+
 
   
 

@@ -58,12 +58,12 @@ const DetailsProjectContainer = styled.div`
         margin-right: 8px;
         margin-bottom: 44px;
         @media only screen and (max-width: 713px) {
-            width: 208px;
-            height: 352px;
+            width: 244px;
+            height: 500px;
             margin-right: 0px;
             margin-bottom: 0px;
         }
-        @media only screen and (max-width: 605px) {
+        @media only screen and (max-width: 641px) {
             display: none;
         }
     }
@@ -96,6 +96,7 @@ const DetailsProjectContainer = styled.div`
     .visible .detailsSection {
         width: 382px;
         height: 182px;
+        margin-bottom: 22px;
         @media only screen and (max-width: 713px) {
             width: 382px;
             height: 88px;
@@ -152,8 +153,11 @@ const DetailsProjectContainer = styled.div`
         display: flex;
         flex-wrap: wrap;
         width: 382px;
-        height: 300px;
         margin-top: 18px;
+        
+        @media only screen and (max-width: 641px) {
+            height: 300px;
+        }
     }
     
     

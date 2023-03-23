@@ -7,7 +7,7 @@ export default function ProjectCard({data}) {
     return(
         <ProjectCardContainer onClick={() => setDetailsClick(!detailsClick)}>
             <div className="imageContainer" style={{"backgroundColor": `${data.color}`}}>
-                <img src={data.image} alt={data.imageAlt} />
+                <img style={{height: "128px"}} src={data.image} alt={data.imageAlt} />
                 <p>{data.title}</p>
             </div>
             <div className="textCard">

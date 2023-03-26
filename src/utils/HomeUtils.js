@@ -51,7 +51,7 @@ export const webProjects = [
       url: "https://github.com/matheusjesse/carteira-digital",
       image: CarteiraDigital,
       imageAlt: "Um formulario onde tem dois campos para o usuário colocar seu usuário e senha e também um botão para fazer login",
-      text: `Um projeto full-stack, onde foi desenvolvido um back-end para que 
+      text: `Um projeto web full-stack, onde foi desenvolvido um back-end para que 
       usuário possa se cadastrar e fazer transferência de dinheiro, além do 
       front-end para que o usuário possa interagir com a aplicação.`,
       technologies: [

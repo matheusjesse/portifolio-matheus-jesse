@@ -7,7 +7,10 @@ export default function DetailsProject({details, title, classEffect}) {
                 <h1 className='detailsTitle'>
                     {title}
                 </h1>
-                <img src={details.image} alt={details.imageAlt}/>
+                {
+                    title === "Carteira Digital" ? <div></div> :
+                    <img src={details.image} alt={details.imageAlt}/>
+                }
                 <div className='container'>
                     <div className='detailsSection'>
                         <div className='subTitle'>Descrição</div>

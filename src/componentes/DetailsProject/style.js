@@ -157,6 +157,11 @@ const DetailsProjectContainer = styled.div`
         height: 400px;
         @media only screen and (max-width: 641px) {
             height: 300px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
         }
     }
     

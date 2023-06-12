@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projetos from './pages/Projetos';
 import About from './pages/About';
 import GlobalStyle from './styles/global';
+import DeliveryAppContainer from './pages/DeliveryApp';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={ <Home/> } />
           <Route path="/projetos" element={ <Projetos/> } />
           <Route path="/about" element={ <About/> } />
+          <Route path="/deliveryApp" element={ <DeliveryAppContainer/> } />
         </Routes>
       </Router>
       <GlobalStyle />

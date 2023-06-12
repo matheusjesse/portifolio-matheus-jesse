@@ -3,6 +3,10 @@ import styled from 'styled-components';
 const ProjectCardUxContainer = styled.div`
 margin: 72px;
 
+a {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1440px) {
     margin: 28px 12px 28px 12px;
   }

@@ -131,5 +131,6 @@ export const webProjectsUX = [
     Description: `Estudo de caso de um aplicativo de delivery para um restaurante local.`,
     image: CardDeliveryProject,
     imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
-    color: "#0F6134",    
+    color: "#0F6134",
+    link:  "/deliveryApp",
   }]

@@ -6,6 +6,7 @@ import TodoImage from '../assets/todoapi.png';
 import CarteiraDigital from '../assets/carteiraDigitalImage.png';
 import RecipeImage from '../assets/recipeApp.png';
 import MusicApp from '../assets/aplicacaomusica.png';
+import CardDeliveryProject from '../assets/cardDeliveryProject.png';
 
 export const webProjects = [
   {
@@ -122,3 +123,13 @@ export const webProjects = [
   }
 ]
 
+export const webProjectsUX = [
+  {
+    id: 1,
+    title: "Aplicativo de Delivery",
+    subTitle: "Estudo de caso para um aplicativo mobile de delivery.",
+    Description: `Estudo de caso de um aplicativo de delivery para um restaurante local.`,
+    image: CardDeliveryProject,
+    imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
+    color: "#0F6134",    
+  }]

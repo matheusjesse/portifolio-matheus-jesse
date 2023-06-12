@@ -8,7 +8,6 @@ export const ProjetoContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;
-  background-color: #fefefe;
   background-image: linear-gradient(to right bottom, #f3f4ef, #f0f1ec, #ecede9, #e9eae6, #e6e7e3);
    
   .titleProject {
@@ -70,11 +69,10 @@ export const ProjetoContainer = styled.div`
   }
 
   .projectSection {
-    width: 70%;
+    width: 54%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
     margin-top: 100px;
     @media only screen and (max-width: 1440px) {
       width: 90%;

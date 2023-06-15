@@ -1,15 +1,10 @@
 import React, { useState } from 'react';
 import ProjetoContainer from '../styles/ProjetoContainer';
-import {webProjects} from '../utils/HomeUtils';
+import {webProjects, webProjectsUX} from '../utils/HomeUtils';
 import ProjectCard from '../componentes/ProjectCard';
 import Header from '../componentes/Header';
 import Footer from '../componentes/Footer';
-
-const EmptyProjextUX = () => {
-  return(
-    <div className='uxProjectSection'>Em Desenvolvimento</div>
-  )
-}
+import ProjectCardUX from '../componentes/ProjectCardUX';
 
 function Projetos() {
   const [projects, setProjects] = useState(true);
@@ -27,7 +22,7 @@ function Projetos() {
             projects ?
             webProjects.map((data) =>
               <ProjectCard key={data.id} data={data}/>          
-            ) :   <EmptyProjextUX />
+            ) : webProjectsUX.map((item) => <ProjectCardUX key={item.id} data={item} />)  
           }
         </div>
         <Footer />

@@ -7,7 +7,6 @@ const UxSkillSectionContainer = styled.div`
     align-items: flex-start;
     align-content: flex-start;
     margin-bottom: 28px;
-
     .uxSkillTitle {
         font-family: 'Overpass', sans-serif;
         font-size: 14px;

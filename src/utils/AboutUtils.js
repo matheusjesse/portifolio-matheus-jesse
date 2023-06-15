@@ -30,7 +30,11 @@ export const skillsWeb = [
 ]
 
 export const skillsUx = [
-    "Estudando"
+    "Wireframe",
+    "Prototype",
+    "Figma",
+    "Design Research",
+    "Typography"
 ]
 
 export const achievements = [
@@ -47,6 +51,10 @@ export const achievements = [
         title: "UX Designer - Coursera | Google",
         certificate: [
             "Fundamentos do design da experiência do usuário (UX)",
+            "Iniciar o processo de design de UX: criar empatia, definir e idealizar",
+            "Criar wireframes e protótipos de baixa fidelidade",
+            "Conduzir pesquisas de UX e testar os primeiros conceitos",
+            "Criar designs e protótipos de alta fidelidade no Figma"
         ]
     }
 ]

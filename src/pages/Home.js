@@ -14,7 +14,7 @@ function Home() {
   return(
     <HomeContainer>
       <h1>Matheus Jessé</h1>
-      <h2>Desenvolvedor Web</h2>
+      <h2>Desenvolvedor Web | UX/UI Designer</h2>
       <CardMenuSection>
         <a href="mailto:matheus_jesse@hotmail.com">
           <CardMenu 

@@ -6,12 +6,6 @@ import Header from '../componentes/Header';
 import Footer from '../componentes/Footer';
 import ProjectCardUX from '../componentes/ProjectCardUX';
 
-const EmptyProjextUX = () => {
-  return(
-    <div className='uxProjectSection'>Em Desenvolvimento</div>
-  )
-}
-
 function Projetos() {
   const [projects, setProjects] = useState(true);
 

@@ -105,7 +105,7 @@ function DeliveryApp() {
               <span className='personaNameTitle'>Persona: Júlia,</span>
               <span className='userJourneySubtitle'>Objetivo:  fazer o pedido de uma refeição.</span>
               <p className='userJourneyText'>
-              &nbsp;&nbsp;&nbsp;&nbsp;No processo de criação da jornada do usuário consegui entender melhor como o como a persona interagiria com o aplicativo de entrega, o que resultou em diversas oportunidades de aprimoramento de design, incluindo a possibilidade de personalização do prato, além de ajudar na criação do user flow.
+              &nbsp;&nbsp;&nbsp;&nbsp;No processo de criação da jornada do usuário consegui entender melhor como a persona interagiria com o aplicativo de entrega, o que resultou em diversas oportunidades de aprimoramento de design, incluindo a possibilidade de personalização do prato, além de ajudar na criação do user flow.
               </p>
             </div>
             <div>

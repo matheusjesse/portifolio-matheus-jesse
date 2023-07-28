@@ -20,8 +20,8 @@ function Projetos() {
         <div className="projectSection">
           {
             projects ?
-            webProjects.map((data) =>
-              <ProjectCard key={data.id} data={data}/>          
+            webProjects.map((data, index) =>
+              <ProjectCard key={data.id} data={data} index={index}/>          
             ) : webProjectsUX.map((item) => <ProjectCardUX key={item.id} data={item} />)  
           }
         </div>

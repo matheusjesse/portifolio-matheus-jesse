@@ -53,9 +53,15 @@ margin: 72px;
     }
     }
 
+    
+
     @media only screen and (max-width: 400px) {
         width: 310px;
         height: 230px;
+    }
+
+    .animate {
+        color: red;
     }
 }
 `;

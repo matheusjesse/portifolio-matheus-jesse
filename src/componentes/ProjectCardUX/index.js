@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ProjectCardUX({data}) {
 
     return(
-        <ProjectCardUxContainer>
+        <ProjectCardUxContainer className="animate glow delay-1">
             <Link to={data.link}>
                 <div className="imageContainer" style={{"backgroundColor": `${data.color}`}}>
                     <img style={{height: "128px"}} src={data.image} alt={data.imageAlt} />

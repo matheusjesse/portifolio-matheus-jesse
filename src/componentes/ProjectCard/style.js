@@ -59,10 +59,6 @@ margin: 72px;
         width: 310px;
         height: 230px;
     }
-
-    .animate {
-        color: red;
-    }
 }
 `;
 

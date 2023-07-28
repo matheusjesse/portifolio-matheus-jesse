@@ -74,7 +74,7 @@ export const ProjetoContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     margin-top: 100px;
     @media only screen and (max-width: 1440px) {
       width: 90%;

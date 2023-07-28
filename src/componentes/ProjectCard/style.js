@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const ProjectCardContainer = styled.div`
 
-margin: 72px;
+margin: 72px 14px 72px 14px;
+
 
 @media only screen and (max-width: 1440px) {
     margin: 28px 12px 28px 12px;

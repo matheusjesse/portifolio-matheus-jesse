@@ -12,52 +12,63 @@ import { Link } from "react-router-dom";
 function Home() {  
 
   return(
-    <HomeContainer>
-      <h1>Matheus Jessé</h1>
-      <h2>Desenvolvedor Web | UX/UI Designer</h2>
+    <HomeContainer> 
+      <h1 className="animate glow delay-Title"> Matheus Jessé</h1>
+      <h2 className="animate glow delay-SubTitle">Desenvolvedor Web | UX/UI Designer</h2>
       <CardMenuSection>
         <a href="mailto:matheus_jesse@hotmail.com">
-          <CardMenu 
-            image={EmailIcon}
-            altText={"Uma seta inclinada para cima no lado direito"}
-            hoverText={"Email"}
-          />
+          <div className="animate glow delay-1">
+            <CardMenu 
+              image={EmailIcon}
+              altText={"Uma seta inclinada para cima no lado direito"}
+              hoverText={"Email"}
+            />
+          </div>
         </a>
         <Link to="/projetos">
-          <CardMenu
-            image={ProjectIcon}
-            altText={"Uma reguá e um lapis um do lado do outro"}
-            hoverText={"Ver Projetos"}
-          />
+          <div className="animate glow delay-2">
+            <CardMenu
+              image={ProjectIcon}
+              altText={"Uma reguá e um lapis um do lado do outro"}
+              hoverText={"Ver Projetos"}
+            />
+          </div>
         </Link>
         <a
         href="https://github.com/matheusjesse" 
         target="_blank" 
         rel="noopener noreferrer"
         >
-          <CardMenu
-            image={GitHubIcon}
-            altText={"Um circulo preto com a silhueta de um gato dentro"}
-            hoverText={"GitHub"}
-          />
+          <div className="animate glow delay-3">
+            <CardMenu
+              image={GitHubIcon}
+              altText={"Um circulo preto com a silhueta de um gato dentro"}
+              hoverText={"GitHub"}
+            />
+          </div>
         </a>
         <a
         href="https://www.linkedin.com/in/matheusjesse"
         target="_blank"
         rel="noopener noreferrer"
         >
-          <CardMenu
-            image={LinkedinIcon}
-            altText={"A letra I e a letra N um do lado do outro"}
-            hoverText={"Linkedin"}
-          />
+          <div className="animate glow delay-4">
+            <CardMenu 
+              className="linked"
+              image={LinkedinIcon}
+              altText={"A letra I e a letra N um do lado do outro"}
+              hoverText={"Linkedin"}
+            />
+          </div>
         </a>
         <Link to="/about">
-          <CardMenu
-            image={ProfileIcon}
-            altText={"ilustração de um homem do peito até a cabeça "}
-            hoverText={"Sobre"}
-          />
+          <div className="animate glow delay-5">
+            <CardMenu
+              image={ProfileIcon}
+              altText={"ilustração de um homem do peito até a cabeça "}
+              hoverText={"Sobre"}
+            />
+          </div>
         </Link>
       </CardMenuSection>
     </HomeContainer>

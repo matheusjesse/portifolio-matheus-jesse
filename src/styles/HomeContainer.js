@@ -36,6 +36,59 @@ export const HomeContainer = styled.div`
     font-size: 18px;
   }
 
+  .animate {
+    animation-duration: 0.75s;
+    animation-delay: 0.5s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+  }
+
+  /* Glow In */
+  .animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+  }
+
+  @keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1) saturate(1);
+      transform: scale(1, 1);
+    }
+  }
+
+  .delay-1 {
+    animation-delay: 0.6s;
+  }
+  .delay-2 {
+    animation-delay: 0.7s;
+  }
+  .delay-3 {
+    animation-delay: 0.8s;
+  }
+
+  .delay-4 {
+    animation-delay: 0.9s;
+  }
+
+  .delay-5 {
+    animation-delay: 1s;
+  }
+
+  .delay-Title {
+    animation-delay: 0.4s;
+  }
+
+  .delay-SubTitle {
+    animation-delay: 0.4s;
+  }
+
   @media only screen and (max-width: 400px) {
     h1 {    
     margin-top: 48px;

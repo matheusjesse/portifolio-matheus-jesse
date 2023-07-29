@@ -19,7 +19,7 @@ const DeliveryAppContainer = styled.body`
       background-color: #0F6134;
       margin-top: 100px;
       @media only screen and (max-width: 870px) {
-      
+        padding-left: 22px;
         height: 432px;
     }
    }
@@ -399,7 +399,8 @@ const DeliveryAppContainer = styled.body`
     position: relative;
     margin-right: 120px;
     @media only screen and (max-width: 700px) {
-      margin-right: 38px;
+      margin-right: 30px;
+      margin-left: 24px;
     
   }
 

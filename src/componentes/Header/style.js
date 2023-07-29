@@ -15,6 +15,10 @@ const HeaderContainer = styled.header`
       display: flex;
       width: 164px;
       justify-content: space-around;
+      @media only screen and (max-width: 700px) {
+      margin-right: 12px;
+    
+  }
   }
 
   a {

@@ -44,7 +44,6 @@ const CardMenuContainer = styled.div`
         align-items: center;
         padding: 0px 8px 0px 8px;
         border: 8px solid transparent;
-        opacity: 1;
         p {
             margin-right: 4px;
         }
@@ -65,17 +64,18 @@ const CardMenuContainer = styled.div`
 const ImageContainer = styled.div`
     width: 132px;
     height: 132px;
-    border: 8px solid #FEFEFE;
+    border: 1px solid var(--material-theme-sys-light-outline-variant, #C4C6D0);
     border-radius: 18px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    box-shadow: 8px 8px 22px -8px #131313;
-    transition: border 0.6s ;
+    justify-content: center;    
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+    transition: box-shadow 0.4s;
     transition-timing-function: ease-in-out;
 
     :hover {
-        border: 8px solid #131313;
+        box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.25), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+        border: 0px solid var(--material-theme-sys-light-outline-variant, #C4C6D0);
     }
 
 `;

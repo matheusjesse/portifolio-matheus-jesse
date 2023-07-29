@@ -8,7 +8,7 @@ const DeliveryAppContainer = styled.body`
   align-items: center;
   flex-wrap: wrap;
   align-content: flex-start;
-  background-image: linear-gradient(to right bottom, #f3f4ef, #f0f1ec, #ecede9, #e9eae6, #e6e7e3);
+  background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
   
    .headerProject {
       width: 100%;

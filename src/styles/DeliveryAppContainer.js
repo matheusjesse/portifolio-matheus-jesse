@@ -80,7 +80,7 @@ const DeliveryAppContainer = styled.body`
    }
 
    .overviewSection {
-    width: 70%;
+    width: 68%;
     margin-top: 180px;
     display: flex;
     justify-content: center;
@@ -513,7 +513,7 @@ const DeliveryAppContainer = styled.body`
   }
 
   .usabilityStudy {
-    width: 70%;
+    width: 68%;
     margin-top: 54px;
     display: flex;
     flex-wrap: wrap;

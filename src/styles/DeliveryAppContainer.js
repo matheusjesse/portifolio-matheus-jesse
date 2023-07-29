@@ -603,8 +603,8 @@ const DeliveryAppContainer = styled.body`
   }
 
   .finalDesignImg {
-    width: 222px;
-    height: 446px;
+    width: 180px;
+    height: 404px;
     margin-top: 18px;
   }
 

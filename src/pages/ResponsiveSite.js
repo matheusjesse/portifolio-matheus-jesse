@@ -17,6 +17,7 @@ function ResponsiveSite() {
             <h1>Site Responsivo Estudo de Caso</h1>
             <h2>Blog de tutoriais</h2>
         </div>
+        <section className="body-page">
         <div className="overall">
             <span className="subTitle">Visão geral</span>
             <div className="overrall-box">
@@ -172,6 +173,7 @@ function ResponsiveSite() {
                 <p className="">Obrigado por acompanhar meu processo de criação do site de tutoriais.Se você quiser ver mais do meu trabalho olhe meu portfólio ou entre em contato comigo.</p>
             </div>       
         </div>
+        </section>
         <Footer />
     </ResponsiveSiteContainer>    
   );

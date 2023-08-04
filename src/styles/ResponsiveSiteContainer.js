@@ -22,6 +22,13 @@ const ResponsiveSiteContainer = styled.body`
         align-content: center;
     }
 
+    .body-page {
+        width: 68%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .subTitle {
         width: 100%;
         text-align: center;

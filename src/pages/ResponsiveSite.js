@@ -92,7 +92,7 @@ function ResponsiveSite() {
                 <p className="userResearchText">O primeiro passo foi fazer a criação do mapa do site, meu objetivo foi criar uma site cujo fosse simples com poucas paginas, mas que não deixasse nada de lado, para que o usuário tenha uma boa experiência navegando. Em seguida passei para criação do wireframe de papel, Utilizei papel e caneta para fazer alguns wireframes para a tela principal para que eu pudesse compartilhar e receber feedbacks de como seria a melhor forma de organizar a tela. Feito isso passei para o computador para fazer o wireframe digital e prototipagem para que fosse possivel efetuar o estudo de usabilidade para achar pontos de melhoria antes de passar para o prototipo de alta fidelidade.</p>
             </div>
             <div className="imgContainer">
-                <img className="personaLucas" src={StartingDesign} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
+                <img className="personaLucas" src={StartingDesign} alt="Imagens de todas as tela do site do mockup de baixa fidelidade" />
             </div>
             <div className="userResearch">
                 <span className="userResearchTitle">Estudo de usabilidade</span>
@@ -116,21 +116,21 @@ function ResponsiveSite() {
                 <p className="userResearchText">Baseado nos feedback de estudo de usabilidade, eu fiz mudanças para melhorar a interação que o usuário tem com o tutorial, adicionando uma seção para que o usuário possa  enviar alguma informação sobre o tutorial, ou tirar alguma dúvida na seção de comentários.</p>
             </div>
             <div className="imgContainer">
-                <img className="personaLucas" src={mockupChangeBlog} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
+                <img className="personaLucas" src={mockupChangeBlog} alt="Duas imagens para comparação da tela na versão de baixa fidelidade e de alta fidelidade depois do estudo de usabilidade." />
             </div>
             <div className="userResearch">
                 <span className="userResearchTitle">Tela Original</span>
             </div>
             <div className="imgContainer">
-                <img className="personaLucas" src={HomePageBlog} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
+                <img className="personaLucas" src={HomePageBlog} alt="Imagem da pagina inicial do site na versão desktop" />
             </div>
             <div className="userResearch">
                 <span className="userResearchTitle">Tela Mobile</span>
             </div>
             <div className="imgContainerMobile">
-                <img className="mobile-phone" src={HomePageBlogMobile} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
-                <img className="mobile-phone" src={TutorialReadPageMobile} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
-                <img className="mobile-phone" src={TutorialpageBlogMobile} alt="Imagem contendo foto da persona contendo objetivos frustrações e informações demograficas" />
+                <img className="mobile-phone" src={HomePageBlogMobile} alt="Imagem contendo a pagina inicial do site na versão mobile" />
+                <img className="mobile-phone" src={TutorialReadPageMobile} alt="Imagem contendo a pagina com lista de tutoriais do site na versão mobile" />
+                <img className="mobile-phone" src={TutorialpageBlogMobile} alt="Imagem contendo a pagina para leitura do site na versão mobile" />
             </div>
             <div className="userResearch">
                 <span className="userResearchTitle">Considerações de acessibilidade</span>

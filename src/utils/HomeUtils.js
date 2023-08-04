@@ -142,6 +142,6 @@ export const webProjectsUX = [
     Description: `Estudo de caso de um blog de tutoriais responsivo.`,
     image: HomePageBlog,
     imageAlt: "Imagem contem um mockup de alta fidelidade da pagina inicial do blog.",
-    color: "#c9c859",
+    color: "#112E2E",
     link:  "/responsiveSite",
   }]

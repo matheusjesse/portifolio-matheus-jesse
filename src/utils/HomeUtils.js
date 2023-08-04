@@ -7,6 +7,7 @@ import CarteiraDigital from '../assets/carteiraDigitalImage.png';
 import RecipeImage from '../assets/recipeApp.png';
 import MusicApp from '../assets/aplicacaomusica.png';
 import CardDeliveryProject from '../assets/cardDeliveryProject.png';
+import HomePageBlog from '../assets/homePageBlog.png';
 
 export const webProjects = [
   {
@@ -133,4 +134,14 @@ export const webProjectsUX = [
     imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
     color: "#0F6134",
     link:  "/deliveryApp",
+  },
+  {
+    id: 1,
+    title: "Blog de Tutoriais",
+    subTitle: "Estudo de caso para um blog de tutoriais.",
+    Description: `Estudo de caso de um blog de tutoriais responsivo.`,
+    image: HomePageBlog,
+    imageAlt: "Imagem contem um mockup de alta fidelidade da pagina inicial do blog.",
+    color: "#c9c859",
+    link:  "/responsiveSite",
   }]

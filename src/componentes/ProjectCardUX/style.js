@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ProjectCardUxContainer = styled.div`
-margin: 72px;
+margin: 72px 14px 72px 14px;
 
 a {
     text-decoration: none;

@@ -8,6 +8,7 @@ import RecipeImage from '../assets/recipeApp.png';
 import MusicApp from '../assets/aplicacaomusica.png';
 import CardDeliveryProject from '../assets/cardDeliveryProject.png';
 import HomePageBlog from '../assets/homePageBlog.png';
+import MinImageMockup from "../assets/tresMockupScreenJobSearch.png";
 
 export const webProjects = [
   {
@@ -136,7 +137,7 @@ export const webProjectsUX = [
     link:  "/deliveryApp",
   },
   {
-    id: 1,
+    id: 2,
     title: "Blog de Tutoriais",
     subTitle: "Estudo de caso para um blog de tutoriais.",
     Description: `Estudo de caso de um blog de tutoriais responsivo.`,
@@ -144,4 +145,16 @@ export const webProjectsUX = [
     imageAlt: "Imagem contem um mockup de alta fidelidade da pagina inicial do blog.",
     color: "#112E2E",
     link:  "/responsiveSite",
+  },
+  {
+    id: 3,
+    title: "Blog de Tutoriais",
+    subTitle: "Estudo de caso para um serviço de busca de emprego.",
+    Description: `Estudo de caso de um App e site responsivo de procura de emprego.`,
+    image: MinImageMockup,
+    imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
+    color: "#006971",
+    link:  "/jobSearch",
   }]
+
+  

@@ -148,7 +148,7 @@ export const webProjectsUX = [
   },
   {
     id: 3,
-    title: "Blog de Tutoriais",
+    title: "Serviço de busca de emprego",
     subTitle: "Estudo de caso para um serviço de busca de emprego.",
     Description: `Estudo de caso de um App e site responsivo de procura de emprego.`,
     image: MinImageMockup,

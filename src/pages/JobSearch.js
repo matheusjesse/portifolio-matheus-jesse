@@ -93,7 +93,7 @@ export default function JobSearch() {
                     </div>
                     <div className="userResearchPoints">
                         <span className="pointsTitle">Navegação</span>
-                        <p className="pointsText">Alguns usuários apontaram a dificuldade de navegar entre as vagas, que acabava e ficar atento as vagas de já se cadastraram.</p>
+                        <p className="pointsText">Alguns usuários apontaram a dificuldade de navegar entre as vagas, que ao clicar na vaga perdia a lista de vagas e ficar atento as vagas que já se cadastraram.</p>
                     </div>
                     <div className="userResearchPoints">
                         <span className="pointsTitle">Frustração</span>

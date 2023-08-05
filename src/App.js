@@ -6,6 +6,8 @@ import Projetos from './pages/Projetos';
 import About from './pages/About';
 import GlobalStyle from './styles/global';
 import DeliveryAppContainer from './pages/DeliveryApp';
+import ResponsiveSite from './pages/ResponsiveSite';
+import JobSearch from './pages/JobSearch';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/projetos" element={ <Projetos/> } />
           <Route path="/about" element={ <About/> } />
           <Route path="/deliveryApp" element={ <DeliveryAppContainer/> } />
+          <Route path="/responsiveSite" element={ <ResponsiveSite/> } />
+          <Route path="/jobSearch" element={ <JobSearch/> } />
         </Routes>
       </Router>
       <GlobalStyle />

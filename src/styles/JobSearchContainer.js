@@ -76,6 +76,95 @@ const JobSearchContainer = styled.div`
       
    }
 
+   .section-body {
+        width: 68%;
+        max-width: 960px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 160px;
+   }
+
+   .overrall-box{
+        width:200px;
+        margin: 14px;
+        border-radius: 12px;
+        padding: 8px;
+    }
+
+    .subTitle {
+        width: 100%;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: 600;
+        margin-bottom: 64px;
+    }
+
+    .subSection {
+        width: 100%;
+    }
+
+    .subSectionTitle {
+        display: block;
+        width: 68%;
+        max-width: 800px;
+
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+    .subSectionText {
+        margin-top: 24px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        max-width: 800px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .personaImg {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .userResearchPoints {
+        width: 200px;
+        
+        margin: 24px;
+    }
+
+    .pointsTitle {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+
+    .pointsText {
+        margin-top: 14px;
+    }
+
+    .pointsSection {
+        display: flex;
+        width: 100%;
+        margin-top: 24px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .mockupUpdate {
+        width: 100%;
+        max-width: 440px;
+    }
+
+    .subSectionFooter {
+        width: 100%;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: 600;
+        display: block;
+    }
 `
 
 export default JobSearchContainer;

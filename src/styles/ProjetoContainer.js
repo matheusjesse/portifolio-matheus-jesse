@@ -10,14 +10,14 @@ export const ProjetoContainer = styled.div`
   align-content: flex-start;
   align-items: center;
   background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
-   
+   padding-top: 144px;
   .titleProject {
     width: 100%;
     text-align: center;
-    font-family: 'Overpass', sans-serif;
-    font-size: 54px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 74px;
     font-weight: 300;
-    color: #131313;
+    color: #737373;
   }
 
   .projectMenu {
@@ -26,33 +26,55 @@ export const ProjetoContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 58px;    
+    gap: 32px;
+    margin-right: 82px;
+    @media only screen and (max-width: 854px) {
+      
+      margin-right: 0px;
+    }
   }
 
   .menuProjectWeb {
-    margin-right: 68px;
-    height: 24px;
+    height: 42px;
+    width: 232px;
     font-size: 22px;
     font-family: 'Overpass', sans-serif;
-    color: #131313;
+    color: #FFF;  
+    background-color:#737373;
+    padding-top: 9px;
+    padding-left: 8px;
+    border-radius: 22px;
     @media only screen and (max-width: 568px) {
       margin-right: 0px;
+      font-size: 20px;
+      padding-left: 12px;
     }
     @media only screen and (max-width: 400px) {
       margin-right: 10px;
       font-size: 18px;
+      text-align: center;
+      width: 202px;
+      padding-top: 10px;
+      padding-left: 5px;
     }
   }
 
   .menuProjectWeb:hover {
     cursor: pointer;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
   .menuProjextUX {
-    margin-left: 68px;
     font-size: 22px;
-    height: 24px;
+    height: 42px;
+    width: 147px;
+    padding-top: 9px;
+    padding-left: 12px;
+    background-color:#737373;
+    border-radius: 22px;
     font-family: 'Overpass', sans-serif;
-    color: #131313;
+    color: #FFF;  
+    transition: box-shadow 0.5s;
     @media only screen and (max-width: 568px) {
       margin-right: 8px;
       margin-left: 48px;
@@ -61,12 +83,16 @@ export const ProjetoContainer = styled.div`
       margin-right: 0px;
       margin-left: 10px;
       font-size: 18px;
-
+      text-align: center;
+      width: 127px;
+      padding-top: 10px;
+      padding-left: 7px;
     }
   }
 
   .menuProjextUX:hover {
     cursor: pointer;
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
   .projectSection {
@@ -82,8 +108,12 @@ export const ProjetoContainer = styled.div`
     }
   }
 
-  .menuSelect {
-    border-bottom: 2px solid #0094FF;
+  .menuSelect {    
+    background-color: #0094FF;
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 500ms linear;
   }
 
   .uxProjectSection {

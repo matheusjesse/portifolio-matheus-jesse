@@ -14,10 +14,10 @@ export const ProjetoContainer = styled.div`
   .titleProject {
     width: 100%;
     text-align: center;
-    font-family: 'Overpass', sans-serif;
-    font-size: 54px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 74px;
     font-weight: 300;
-    color: #131313;
+    color: #737373;
   }
 
   .projectMenu {
@@ -26,10 +26,15 @@ export const ProjetoContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 58px;    
+    gap: 32px;
+    margin-right: 82px;
+    @media only screen and (max-width: 854px) {
+      
+      margin-right: 0px;
+    }
   }
 
   .menuProjectWeb {
-    margin-right: 68px;
     height: 42px;
     width: 232px;
     font-size: 22px;
@@ -60,12 +65,11 @@ export const ProjetoContainer = styled.div`
   }
 
   .menuProjextUX {
-    margin-left: 68px;
     font-size: 22px;
     height: 42px;
     width: 147px;
     padding-top: 9px;
-    padding-left: 13px;
+    padding-left: 12px;
     background-color:#737373;
     border-radius: 22px;
     font-family: 'Overpass', sans-serif;

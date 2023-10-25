@@ -10,7 +10,7 @@ export const ProjetoContainer = styled.div`
   align-content: flex-start;
   align-items: center;
   background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
-   
+   padding-top: 144px;
   .titleProject {
     width: 100%;
     text-align: center;
@@ -65,7 +65,7 @@ export const ProjetoContainer = styled.div`
     height: 42px;
     width: 147px;
     padding-top: 9px;
-    padding-left: 12px;
+    padding-left: 13px;
     background-color:#737373;
     border-radius: 22px;
     font-family: 'Overpass', sans-serif;

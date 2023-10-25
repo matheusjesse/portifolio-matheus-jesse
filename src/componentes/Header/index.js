@@ -5,10 +5,10 @@ const ProjectHeader = () => {
   return(
     <div className='menuContainer'>
       <Link to="/home">
-        <div className='titleText'>Início</div>
+        <div className='titleTextLeft'>Início</div>
       </Link>
       <Link to="/about">
-        <div className='titleText'>Sobre</div>
+        <div className='titleTextRight'>Sobre</div>
       </Link>
     </div>
   )
@@ -18,10 +18,10 @@ const AboutHeader = () => {
   return(
     <div className='menuContainer'>
         <Link to="/home">
-          <div className='titleText'>Início</div>
+          <div className='titleTextLeft'>Início</div>
         </Link>
         <Link to="/projetos">
-          <div className='titleText'>Projetos</div>
+          <div className='titleTextRight'>Projetos</div>
         </Link>
     </div>
   )

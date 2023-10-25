@@ -44,6 +44,7 @@ export const ProjetoContainer = styled.div`
     padding-top: 9px;
     padding-left: 8px;
     border-radius: 22px;
+    transition: box-shadow 0.5s;
     @media only screen and (max-width: 568px) {
       margin-right: 0px;
       font-size: 20px;

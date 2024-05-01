@@ -14,7 +14,7 @@ export default function ProjectCardUX({data}) {
                     <h2>{data.subTitle}</h2>
                     <p>{data.Description}</p>
                 </div>
-                    <img src={LinkIcon} alt="linkIcon"/>
+                <img src={LinkIcon} alt="linkIcon"/>
             </Link>
         </ProjectCardUxContainer>
     )

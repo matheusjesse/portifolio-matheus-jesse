@@ -26,11 +26,7 @@ export default function DetailsProject({details, title, classEffect}) {
                     </div>
                 </div>
                 <hr style={{width: "100%", visibility: "hidden"}} />
-                <a
-                href={details.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                >Link do Projeto</a>
+                
             </div>
         </DetailsProjectContainer>
     )

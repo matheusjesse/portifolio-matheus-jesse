@@ -8,7 +8,8 @@ export const HomeContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;  
-  background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
+  background: ${props => props.theme.colors.surfaceContainerLowest};
+  
   a {
     text-decoration: none;
   }
@@ -93,6 +94,56 @@ export const HomeContainer = styled.div`
     margin-top: 48px;
   }
   }
+  .skill-section {
+    width: 90%;
+    background-color: ${props => props.theme.colors.surfaceContainerLowest};;
+    margin: 0 14px 44px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    h3 {
+      width: 100%;
+      text-align: center;
+      margin-top: 44px;
+      margin-bottom: 44px;
+      font-family: 'Overpass', sans-serif;   
+    }
+    .skill-card-home {
+      min-width: 340px;
+      width: 90%;
+      height: 194px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-wrap: wrap;
+      flex-direction: column;
+      border-radius: 12px;
+      background-color: ${props => props.theme.colors.surfaceContainerLowest};
+      padding: 4px;
+      border: 1px solid ${props => props.theme.colors.outlineVariant};
+      span {
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;   
+      }
+      p {
+
+        font-family: 'Overpass', sans-serif; 
+        font-size: 14px;
+        color: ${props => props.theme.colors.onSurfaceVariant};
+      }
+
+      .skillImage {
+            height: 110px;
+    }
+    }
+  }
+  hr {
+    width: 100%;
+    border: none;
+  }
 `;
 
 const CardMenuSection = styled.div`
@@ -101,13 +152,15 @@ const CardMenuSection = styled.div`
   flex-wrap: wrap;
   width: 80%;
   margin-top: 144px;
-  margin-bottom: 144px;
+  margin-bottom: 230px;
   align-content: space-around;
 
   @media only screen and (max-width: 400px) {
     margin-top: 10px;
     margin-bottom: 108px;
   }
+
+
 
 `;
 

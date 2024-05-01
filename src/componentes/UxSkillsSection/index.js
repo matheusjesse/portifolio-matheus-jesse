@@ -2,7 +2,7 @@ import UxSkillSectionContainer from './style';
 
 export default function UxSkillSection({data}) {
     return(
-        <UxSkillSectionContainer>
+        <UxSkillSectionContainer className="animate glow delay-1">
             <h1 className='uxSkillTitle'>Ux Design</h1>
             {
                 data.map((item, index) =>

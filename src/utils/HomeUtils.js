@@ -14,14 +14,13 @@ export const webProjects = [
   {
     id: 1,
     title: "API de ToDos",
-    subTitle: "Uma API de ToDos e Registro de usuários",
+    subTitle: "Uma API de anotações e registro de usuários",
     Description: `Uma API onde o usuário consegue criar 
     uma conta e gerenciar sua lista de afazeres, podendo 
     editar, deletar, registrar, além de poder classificar 
     os afazeres pelo dia da semana e período do dia.`,
     image: TodoIconSVG,
     imageAlt: "Uma ilustração de folha e caneta",
-    color: "#CDFFE1",
     details: {
       url: "https://github.com/matheusjesse/todo-api",
       image: TodoImage,
@@ -30,13 +29,11 @@ export const webProjects = [
       desenvolver uma API para gerenciar um aplicativo de afazeres,
       afim de praticar as tecnologias listadas a baixo.`,
       technologies: [
-        "TypeScript",
-        "Node.JS",
-        "Express.JS",
-        "Test de Integração (mocha, chai, sinon)",
-        "Sequelize(db: MySQL)",
-        "Biblioteca Joi",
-        "Biblioteca Jsonwebtoken"
+        "ts",
+        "nodejs",
+        "express",
+        "mysql",
+        "sequelize"
       ]
     }
   },
@@ -49,7 +46,6 @@ export const webProjects = [
     para outros usuários cadastrados`,
     image: WalletIconSVG,
     imageAlt: "Uma ilustração de uma carteira com dinheiro saindo por cima",
-    color: "#FFCCAF",
     details: {
       url: "https://github.com/matheusjesse/carteira-digital",
       image: CarteiraDigital,
@@ -58,13 +54,14 @@ export const webProjects = [
       usuário possa se cadastrar e fazer transferência de dinheiro, além do 
       front-end para que o usuário possa interagir com a aplicação.`,
       technologies: [
-        "React.JS",
-        "Styled-Components",
-        "Context",
-        "Node.JS",
-        "Express.JS",
-        "TypeScript",
-        "MongoDB",
+        "react",
+        "html",
+        "css",
+        "styledcomponents",
+        "nodejs",
+        "express",
+        "ts",
+        "mongodb",
       ]
     }
   },
@@ -78,7 +75,6 @@ export const webProjects = [
     opções favoritas. (desenvolvida em equipe)`,
     image: CupIconSVG,
     imageAlt: "Uma ilustração de um copo com canudo",
-    color: "#FDF9A6",
     details: {
       url: "https://github.com/matheusjesse/recipes-app",
       image: RecipeImage,
@@ -87,13 +83,11 @@ export const webProjects = [
       o end-point de uma API pública. O TheMealDB é um banco de dados aberto, mantido 
       pela comunidade, com receitas e ingredientes.`,
       technologies: [
-        "JavaScript",
-        "Styled-Components",
-        "React.JS",
-        "Metodologia ágil Scrum",
-        "HTML",
-        "CSS",
-        "Context",
+        "js",
+        "styledcomponents",
+        "react",
+        "html",
+        "css",
       ]
     }
   },
@@ -105,7 +99,6 @@ export const webProjects = [
     para entrar e pesquisar músicas de sua escolha.`,
     image: MusicIconSVG,
     imageAlt: "Uma ilustração de uma agenda, tablete e uma reguá um do lado do outro",
-    color: "#E9D1FC",
     details: {
       url: "https://github.com/matheusjesse/projeto-trybetunes",
       image: MusicApp,
@@ -114,12 +107,11 @@ export const webProjects = [
       o front-end da aplicação, para que o usuário pudesse, pesquisar suas musicas 
       e cantores favoritos, além de poder favoritar as músicas e dar play.`,
       technologies: [
-        "JavaScript",
-        "React",
-        "Styled-Components",
-        "Ciclo de vida de componente React",
-        "HTML",
-        "CSS",
+        "js",
+        "react",
+        "styledcomponents",
+        "html",
+        "css",
       ]
     }
   }
@@ -133,7 +125,6 @@ export const webProjectsUX = [
     Description: `Estudo de caso de um aplicativo de delivery para um restaurante local.`,
     image: CardDeliveryProject,
     imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
-    color: "#0F6134",
     link:  "/deliveryApp",
   },
   {
@@ -143,7 +134,6 @@ export const webProjectsUX = [
     Description: `Estudo de caso de um blog de tutoriais responsivo.`,
     image: HomePageBlog,
     imageAlt: "Imagem contem um mockup de alta fidelidade da pagina inicial do blog.",
-    color: "#112E2E",
     link:  "/responsiveSite",
   },
   {
@@ -153,7 +143,6 @@ export const webProjectsUX = [
     Description: `Estudo de caso de um App e site responsivo de procura de emprego.`,
     image: MinImageMockup,
     imageAlt: "Uma imagem de três celulares e mostrando na tela o aplicativo.",
-    color: "#006971",
     link:  "/jobSearch",
   }]
 

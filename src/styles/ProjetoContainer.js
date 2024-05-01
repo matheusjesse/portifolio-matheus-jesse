@@ -8,7 +8,8 @@ export const ProjetoContainer = styled.div`
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: center;
-  background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
+  background: ${props => props.theme.colors.surfaceContainerLowest};
+  
    padding-top: 144px;
   .titleProject {
     width: 100%;

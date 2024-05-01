@@ -1,5 +1,6 @@
 import ProjectCardUxContainer from "./style"
 import { Link } from "react-router-dom";
+import LinkIcon from '../../assets/linkIcon.svg';
 
 export default function ProjectCardUX({data}) {
 
@@ -7,13 +8,13 @@ export default function ProjectCardUX({data}) {
         <ProjectCardUxContainer className="animate glow delay-1">
             <Link to={data.link}>
                 <div className="imageContainer" style={{"backgroundColor": `${data.color}`}}>
-                    <img style={{height: "128px"}} src={data.image} alt={data.imageAlt} />
-                    <p>{data.title}</p>
+                    <h1>{data.title}</h1>
                 </div>
                 <div className="textCard">
-                    <h1>{data.subTitle}</h1>
+                    <h2>{data.subTitle}</h2>
                     <p>{data.Description}</p>
                 </div>
+                    <img src={LinkIcon} alt="linkIcon"/>
             </Link>
         </ProjectCardUxContainer>
     )

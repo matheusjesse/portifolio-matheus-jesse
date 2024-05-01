@@ -74,7 +74,7 @@ border-radius: 12px;
             p {
                 font-size: 14px;
                 font-family: 'Overpass', sans-serif;
-                color: ${props => props.theme.colors.onSurface};;
+                color: ${props => props.theme.colors.onSurface};
                 @media only screen and (max-width: 400px) {
                 
 

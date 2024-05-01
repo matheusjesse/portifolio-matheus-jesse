@@ -69,12 +69,12 @@ const ImageContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;    
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.11), 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.11), 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
     transition: box-shadow 0.4s;
     transition-timing-function: ease-in-out;
 
     :hover {
-        box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.25), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+        box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.14), 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
         border: 0px solid var(--material-theme-sys-light-outline-variant, #C4C6D0);
     }
 

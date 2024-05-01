@@ -14,7 +14,7 @@ export const webProjects = [
   {
     id: 1,
     title: "API de ToDos",
-    subTitle: "Uma API de ToDos e Registro de usuários",
+    subTitle: "Uma API de anotações e registro de usuários",
     Description: `Uma API onde o usuário consegue criar 
     uma conta e gerenciar sua lista de afazeres, podendo 
     editar, deletar, registrar, além de poder classificar 

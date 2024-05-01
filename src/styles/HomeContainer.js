@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
   flex-wrap: wrap;
   align-content: flex-start;  
   background: var(--material-theme-sys-light-surface, linear-gradient(0deg, rgba(0, 90, 193, 0.04) 0%, rgba(0, 90, 193, 0.04) 100%), #FAF9FD);
+  
   a {
     text-decoration: none;
   }

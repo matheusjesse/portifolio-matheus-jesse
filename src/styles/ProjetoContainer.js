@@ -58,6 +58,13 @@ export const ProjetoContainer = styled.div`
       padding-top: 10px;
       padding-left: 5px;
     }
+    @media only screen and (max-width: 440px) {
+      font-size: 14px;
+      text-align: center;
+      width: 167px;
+      padding-top: 12px;
+      padding-left: 4px;
+    }
   }
 
   .menuProjectWeb:hover {
@@ -88,6 +95,12 @@ export const ProjetoContainer = styled.div`
       width: 127px;
       padding-top: 10px;
       padding-left: 7px;
+    }
+    @media only screen and (max-width: 440px) {
+      font-size: 14px;
+      text-align: center;
+      width: 127px;
+      padding-top: 12px;
     }
   }
 

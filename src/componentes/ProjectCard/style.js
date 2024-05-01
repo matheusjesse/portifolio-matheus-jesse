@@ -44,10 +44,7 @@ border-radius: 12px;
         width: 310px;
         }
     
-        @media only screen and (max-width: 400px) {
-            width: 310px;
-            height: 230px;
-        }
+        
     }
 
     .skillImage {
@@ -58,6 +55,7 @@ border-radius: 12px;
     @media only screen and (max-width: 400px) {
         width: 310px;
         height: 230px;
+        
     }
     
 }

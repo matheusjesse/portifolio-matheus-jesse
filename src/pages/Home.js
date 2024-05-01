@@ -8,6 +8,7 @@ import LinkedinIcon from '../assets/linkedinIcon.svg';
 import ProfileIcon from '../assets/profileIcon.svg';
 import {CardMenuSection} from '../styles/HomeContainer';
 import { Link } from "react-router-dom";
+import Vector from '../assets/Vector.svg';
 
 function Home() {  
 
@@ -71,6 +72,47 @@ function Home() {
           </div>
         </Link>
       </CardMenuSection>
+      <hr />
+      <div className='skill-section'>
+        <h3>Habilidades</h3>
+        <div className='skill-card-home'>
+          <span>Front-End</span>
+          <div className="skillImage">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=html,css,styledcomponents,js,react,ts,nextjs,vite,tailwind&theme=light&perline=6" alt='skill-icons'/>
+          </a>
+          </div>
+          <p>html, css, styled-components, javascript, typescript, react, nextjs, vite, tailwind.</p>
+        </div>
+        <div className='skill-card-home'>
+          <span>Back-End</span>
+          <div className="skillImage">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,express,nodejs,ts,sequelize&theme=light&perline=6" alt='skill-icons'/>
+          </a>
+          </div>
+          <p>mysql, mongodb, postgres, sequelize, express, node, typescript.</p>
+        </div>
+        <div className='skill-card-home'>
+          <span>Tecnologias</span>
+          <div className="skillImage">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=vscode,postman,linux,git,github,figma,docker&theme=light&perline=6" alt='skill-icons'/>
+          </a>
+          </div>
+          <p>visual studio code, postman, linux, git, github, figma, docker.</p>
+        </div>
+        <div className='skill-card-home'>
+          <span>Habilidades que da para desenrolar</span>
+          <div className="skillImage">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=py,cs&theme=light&perline=6" alt='skill-icons'/>
+          </a>
+          </div>
+          <p>python, c#(sharp)</p>
+        </div>        
+      </div>
+      
     </HomeContainer>
   );
 }

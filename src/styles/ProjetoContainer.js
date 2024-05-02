@@ -37,32 +37,31 @@ export const ProjetoContainer = styled.div`
   .menuProjectWeb {
     height: 42px;
     width: 232px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Overpass', sans-serif;
-    color: #FFF;  
-    background-color:#737373;
+    text-align: center;
+    color: ${props => props.theme.colors.onSurface};;  
+    background-color: ${props => props.theme.colors.surfaceContainerLowest};;
+    border: 1px solid ${props => props.theme.colors.outlineVariant};;
     padding-top: 9px;
-    padding-left: 8px;
-    border-radius: 22px;
+    border-radius: 12px;
     transition: box-shadow 0.5s;
     @media only screen and (max-width: 568px) {
       margin-right: 0px;
       font-size: 20px;
-      padding-left: 12px;
     }
     @media only screen and (max-width: 400px) {
       margin-right: 10px;
       font-size: 18px;
       text-align: center;
       width: 202px;
-      padding-top: 10px;
-      padding-left: 5px;
+      padding-top: 9px;
     }
     @media only screen and (max-width: 440px) {
       font-size: 14px;
       text-align: center;
       width: 167px;
-      padding-top: 12px;
+      padding-top: 13px;
       padding-left: 4px;
     }
   }
@@ -75,13 +74,14 @@ export const ProjetoContainer = styled.div`
   .menuProjextUX {
     font-size: 22px;
     height: 42px;
-    width: 147px;
+    width: 148px;
     padding-top: 9px;
-    padding-left: 12px;
-    background-color:#737373;
-    border-radius: 22px;
+    background-color: ${props => props.theme.colors.surfaceContainerLowest};
+    border-radius: 12px;
+    text-align: center;
     font-family: 'Overpass', sans-serif;
-    color: #FFF;  
+    color: ${props => props.theme.colors.onSurfaceVariant};  
+    border: 1px solid ${props => props.theme.colors.outlineVariant};
     transition: box-shadow 0.5s;
     @media only screen and (max-width: 568px) {
       margin-right: 8px;
@@ -93,14 +93,14 @@ export const ProjetoContainer = styled.div`
       font-size: 18px;
       text-align: center;
       width: 127px;
-      padding-top: 10px;
+      padding-top: 9px;
       padding-left: 7px;
     }
     @media only screen and (max-width: 440px) {
       font-size: 14px;
       text-align: center;
       width: 127px;
-      padding-top: 12px;
+      padding-top: 13px;
     }
   }
 
@@ -123,8 +123,9 @@ export const ProjetoContainer = styled.div`
   }
 
   .menuSelect {    
-    background-color: #0094FF;
-    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    color: ${props => props.theme.colors.onSurfaceVariant};
+    border: 1px solid ${props => props.theme.colors.tertiary};
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 500ms linear;
